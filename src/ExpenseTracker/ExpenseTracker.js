@@ -1,10 +1,24 @@
 import React, { useEffect, useState } from "react";
 import ExpenseInputs from "./components/ExpenseInputs";
 import QuickChart from "quickchart-js/build/quickchart.esm.js";
-
+let transArr;
 //test
-// [{"type":"Income","desc":"love","amount":"400"},{"type":"Income","desc":"love","amount":"300"},{"type":"Income","desc":"love","amount":"200"},{"type":"Expense","desc":"hate","amount":"300"},{"type":"Expense","desc":"hate","amount":"200"},{"type":"Income","desc":"love","amount":"500"},{"type":"Expense","desc":"hate","amount":"100"},{"type":"Income","desc":"love","amount":"400"},{"type":"Expense","desc":"hate","amount":"100"},{"type":"Expense","desc":"hate","amount":"200"}]
-const transArr = [...JSON.parse(localStorage.getItem("transactions"))];
+if (localStorage.getItem("transactions")) {
+  transArr = [...JSON.parse(localStorage.getItem("transactions"))];
+} else {
+  transArr = [
+    { type: "Income", desc: "love", amount: "400" },
+    { type: "Income", desc: "love", amount: "300" },
+    { type: "Income", desc: "love", amount: "200" },
+    { type: "Expense", desc: "hate", amount: "300" },
+    { type: "Expense", desc: "hate", amount: "200" },
+    { type: "Income", desc: "love", amount: "500" },
+    { type: "Expense", desc: "hate", amount: "100" },
+    { type: "Income", desc: "love", amount: "400" },
+    { type: "Expense", desc: "hate", amount: "100" },
+    { type: "Expense", desc: "hate", amount: "200" },
+  ];
+}
 function calcIncome() {
   const incomeArr = [];
   transArr
@@ -86,8 +100,8 @@ export default function ExpenseTracker() {
         },
       })
       .setHeight("150%")
-      .setBackgroundColor("transparent")
-    setChart(<img className="transition mx-auto"  src={myChart.getUrl()} />);
+      .setBackgroundColor("transparent");
+    setChart(<img className="transition mx-auto" src={myChart.getUrl()} />);
   }
   const [result, setResult] = useState(filler);
   useEffect(() => {
@@ -107,8 +121,14 @@ export default function ExpenseTracker() {
         updateTran={updateTran}
       />
       <br />
-      <h2>Income: <span className='font-bold text-2xl text-green-700'>{incomeTotal}</span></h2>
-      <h2>Expense: <span className='font-bold text-2xl text-red-600'>{expenseTotal}</span></h2>
+      <h2>
+        Income:{" "}
+        <span className="font-bold text-2xl text-green-700">{incomeTotal}</span>
+      </h2>
+      <h2>
+        Expense:{" "}
+        <span className="font-bold text-2xl text-red-600">{expenseTotal}</span>
+      </h2>
 
       <h2>
         Balance:{" "}
