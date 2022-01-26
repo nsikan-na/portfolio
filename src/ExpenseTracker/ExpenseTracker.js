@@ -45,7 +45,7 @@ export default function ExpenseTracker() {
   const [expenseTotal, setExpenseTotal] = useState(calcExpense());
   const [balance, setBalance] = useState(incomeTotal - expenseTotal);
   const [update, setUpdate] = useState(false);
-  const balColor = balance > 0 ? "green" : "red";
+  const balColor = balance > 0 ? "text-green" : "text-red";
   const [event, setEvent] = useState(null);
   const [updateTran, setUpdateTran] = useState(true);
   const addTrans = (type, desc, amount) => {
@@ -64,11 +64,11 @@ export default function ExpenseTracker() {
   };
 
   const filler = transArr.map(({ type, desc, amount }, i) => {
-    const tranColor = type === "Income" ? "green-700" : "red-600";
+    const tranColor = type === "Income" ? "bg-green-700" : "bg-red-600";
     return (
       <div
         key={i}
-        className={`my-5 bg-${tranColor} w-1/6 m-auto text-white rounded-3xl`}
+        className={`my-5 ${tranColor} w-1/6 m-auto text-white rounded-3xl`}
       >
         <h3>{type}</h3>
         <h3>{desc}</h3>
@@ -132,7 +132,7 @@ export default function ExpenseTracker() {
 
       <h2>
         Balance:{" "}
-        <span className={`text-${balColor}-700 font-bold text-4xl`}>
+        <span className={`${balColor}-700 font-bold text-4xl`}>
           {balance}
         </span>
       </h2>
