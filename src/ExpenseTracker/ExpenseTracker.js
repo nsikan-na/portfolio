@@ -1,10 +1,24 @@
 import React, { useEffect, useState } from "react";
 import ExpenseInputs from "./components/ExpenseInputs";
 import QuickChart from "quickchart-js/build/quickchart.esm.js";
-
+let transArr;
 //test
-// [{"type":"Income","desc":"love","amount":"400"},{"type":"Income","desc":"love","amount":"300"},{"type":"Income","desc":"love","amount":"200"},{"type":"Expense","desc":"hate","amount":"300"},{"type":"Expense","desc":"hate","amount":"200"},{"type":"Income","desc":"love","amount":"500"},{"type":"Expense","desc":"hate","amount":"100"},{"type":"Income","desc":"love","amount":"400"},{"type":"Expense","desc":"hate","amount":"100"},{"type":"Expense","desc":"hate","amount":"200"}]
-const transArr = [...JSON.parse(localStorage.getItem("transactions"))];
+if (localStorage.getItem("transactions")) {
+  transArr = [...JSON.parse(localStorage.getItem("transactions"))];
+} else {
+  transArr = [
+    { type: "Income", desc: "love", amount: "400" },
+    { type: "Income", desc: "love", amount: "300" },
+    { type: "Income", desc: "love", amount: "200" },
+    { type: "Expense", desc: "hate", amount: "300" },
+    { type: "Expense", desc: "hate", amount: "200" },
+    { type: "Income", desc: "love", amount: "500" },
+    { type: "Expense", desc: "hate", amount: "100" },
+    { type: "Income", desc: "love", amount: "400" },
+    { type: "Expense", desc: "hate", amount: "100" },
+    { type: "Expense", desc: "hate", amount: "200" },
+  ];
+}
 function calcIncome() {
   const incomeArr = [];
   transArr
@@ -31,7 +45,7 @@ export default function ExpenseTracker() {
   const [expenseTotal, setExpenseTotal] = useState(calcExpense());
   const [balance, setBalance] = useState(incomeTotal - expenseTotal);
   const [update, setUpdate] = useState(false);
-  const balColor = balance > 0 ? "green" : "red";
+  const balColor = balance > 0 ? "text-green" : "text-red";
   const [event, setEvent] = useState(null);
   const [updateTran, setUpdateTran] = useState(true);
   const addTrans = (type, desc, amount) => {
@@ -50,11 +64,11 @@ export default function ExpenseTracker() {
   };
 
   const filler = transArr.map(({ type, desc, amount }, i) => {
-    const tranColor = type === "Income" ? "green-700" : "red-600";
+    const tranColor = type === "Income" ? "bg-green-700" : "bg-red-600";
     return (
       <div
         key={i}
-        className={`my-5 bg-${tranColor} w-1/6 m-auto text-white rounded-3xl`}
+        className={`my-5 ${tranColor} w-1/6 m-auto text-white rounded-3xl`}
       >
         <h3>{type}</h3>
         <h3>{desc}</h3>
@@ -86,8 +100,8 @@ export default function ExpenseTracker() {
         },
       })
       .setHeight("150%")
-      .setBackgroundColor("transparent")
-    setChart(<img className="transition mx-auto"  src={myChart.getUrl()} />);
+      .setBackgroundColor("transparent");
+    setChart(<img className="transition mx-auto" src={myChart.getUrl()} />);
   }
   const [result, setResult] = useState(filler);
   useEffect(() => {
@@ -107,12 +121,18 @@ export default function ExpenseTracker() {
         updateTran={updateTran}
       />
       <br />
-      <h2>Income: <span className='font-bold text-2xl text-green-700'>{incomeTotal}</span></h2>
-      <h2>Expense: <span className='font-bold text-2xl text-red-600'>{expenseTotal}</span></h2>
+      <h2>
+        Income:{" "}
+        <span className="font-bold text-2xl text-green-700">{incomeTotal}</span>
+      </h2>
+      <h2>
+        Expense:{" "}
+        <span className="font-bold text-2xl text-red-600">{expenseTotal}</span>
+      </h2>
 
       <h2>
         Balance:{" "}
-        <span className={`text-${balColor}-700 font-bold text-4xl`}>
+        <span className={`${balColor}-700 font-bold text-4xl`}>
           {balance}
         </span>
       </h2>
