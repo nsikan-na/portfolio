@@ -9,11 +9,10 @@ export default function Header() {
         <a href="https://www.linkedin.com/in/nsikan-na/" target="_blank">
           <img src="images/pic/linkin.png" className="w-10 " />
         </a>
-        <a>
           <a href="/images/Nsikan_Akpan_Resume.pdf" target="_blank">
             <img src="images/pic/resume.png" className="w-10 " />
           </a>
-        </a>
+
         <a href="https://github.com/nsikan-na" target="_blank">
           <img src="images/pic/github.png" className="w-10 " />
         </a>

@@ -58,8 +58,10 @@ export default function App() {
             <div id="contact">
               <Email />
             </div>
-            <p>(portfolio site looks good on mobile. email form is not working 
-              yet.)</p>
+            <p>
+              (portfolio site looks good on mobile. email form is not working
+              yet.)
+            </p>
           </div>
         </div>
       </div>
