@@ -1,12 +1,13 @@
 import React from "react";
-import Wiki from "./Wiki/components/Wiki";
-import ExpenseTracker from "./ExpenseTracker/ExpenseTracker";
-
+import SPA_Widgets from './SPA_Widgets/SPA_Widgets'
+import Portfolio from "./Portfolio/Portfolio";
 export default function App() {
   return (
+
     <>
-      {/* <Wiki/> */}
-      <ExpenseTracker />
-    </>
+    <Portfolio />
+    {/* <SPA_Widgets /> */}
+      </>
+
   );
 }
