@@ -11,8 +11,9 @@ export default function Projects({
 }) {
   return (
     <div>
-
-      <h3 className="underline text-2xl">{title}</h3>
+      <a href={live} target="_blank">
+        <h3 className="underline text-2xl">{title}</h3>
+      </a>
       <br />
       <a href={live} target="_blank">
         <img
@@ -45,13 +46,13 @@ export default function Projects({
       </p>
       <span> {other}</span>
 
-      <div className="flex pt-4 space-x-1">
+      <div className="flex py-4">
         {skills.map((skill, key) => {
           return (
             <img
               key={key}
               title={`${skill}`}
-              className="w-14"
+              className="w-12 mx-auto"
               src={`/images/pic/${skill}.png`}
             />
           );

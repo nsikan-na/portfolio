@@ -1,6 +1,6 @@
 import React from "react";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import Carousel from './Carousel';
+import Carousel from "./Carousel";
 export default function Header() {
   return (
     <div className="text-center text-white pb-6 ">
@@ -10,14 +10,16 @@ export default function Header() {
           <img src="images/pic/linkin.png" className="w-10 " />
         </a>
         <a>
-          <img src="images/pic/resume.png" className="w-10 " />
+          <a href="/images/Nsikan_Akpan_Resume.pdf" target="_blank">
+            <img src="images/pic/resume.png" className="w-10 " />
+          </a>
         </a>
         <a href="https://github.com/nsikan-na" target="_blank">
           <img src="images/pic/github.png" className="w-10 " />
         </a>
       </div>
       <div className="text-2xl my-4">
-        I am 
+        I am
         <span
           className="txt-rotate"
           data-period="500"

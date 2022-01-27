@@ -41,10 +41,10 @@ export default function App() {
             title="Widgets"
             img="/images/widget.jpg"
             desc="This application consists of multiple simple widgets I build to practice React/Tailwind."
-            skills={[, "react", "tailwind"]}
-            other="(Under Production)"
+            skills={["html", "css", "js", "react", "tailwind"]}
             git="https://github.com/nsikan-na/spa_widgets"
             live="https://nsikan-spa-widgets.netlify.app/"
+            other="(Under Construction)"
           />
         </div>
         <div className="text-center bg-grey-400">
@@ -58,6 +58,8 @@ export default function App() {
             <div id="contact">
               <Email />
             </div>
+            <p>(portfolio site looks good on mobile. email form is not working 
+              yet.)</p>
           </div>
         </div>
       </div>
