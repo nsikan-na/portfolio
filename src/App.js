@@ -8,13 +8,13 @@ export default function App() {
   return (
     <>
       <div id="home" className="">
-        <div className="bg-pink-300 rounded-b-3xl opacity-90 h-screen align-auto">
+        <div className="z-50 bg-pink-300 rounded-b-3xl opacity-90 h-screen align-auto">
           <NavBar />
           <Header />
         </div>
         <div id="projects" className="text-center">
           <br />
-          <h2 className="underline text-pink-300 text-5xl pt-6">Projects</h2>
+          <h2 className=" text-pink-300 text-5xl pt-6  md:text-8xl lg:text-8xl">Projects</h2>
           <br />
           <Projects
             title="Manage Student Information"
@@ -44,24 +44,20 @@ export default function App() {
             skills={["html", "css", "js", "react", "tailwind"]}
             git="https://github.com/nsikan-na/spa_widgets"
             live="https://nsikan-spa-widgets.netlify.app/"
-            other="(Under Construction)"
           />
         </div>
-        <div className="text-center bg-grey-400">
+        <div className="text-center z-0">
           <div
-            className="pt-10 pb-32"
+            className="pt-10 pb-32 z-0"
             style={{
               backgroundImage: "linear-gradient(white,#f3acd7)",
-              height: "20%",
+              height: "15%",
             }}
           >
-            <div id="contact">
+            <div id="contact" className="z-0">
               <Email />
             </div>
-            <p>
-              (portfolio site looks good on mobile. email form is not working
-              yet.)
-            </p>
+          
           </div>
         </div>
       </div>
