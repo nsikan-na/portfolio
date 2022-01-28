@@ -24,11 +24,11 @@ export default function App() {
           <Projects
             title="Manage Student Information"
             img="/images/student.jpg"
-            desc="This is a application where a teacher can manage their student's information. The teacher is able to view all the information without signing in, but must sign in to be able to add, update, or delete student information. The teacher can setup a new account if they do not already have one, and can also change their password once they sign in."
-            other="(Fake Login Provided)"
-            skills={["html", "css", "js", "php", "sql"]}
+            desc="This is an application where a teacher can manage their student's information. The teacher is able to view all the information without signing in, but must sign in to be able to add, update, or delete student information. The teacher can setup a new account if they do not already have one, and can also change their password once they sign in. All data is stored in a database. (Fake Login Provided)"
+            other="Built using Html, Css, BootStrap, JavaScript, Php, and  Sql"
+            skills={["html", "css","bootstrap", "js", "php", "sql"]}
             git="https://github.com/nsikan-na/student-info"
-            live="https://nakpan.info/studentinfo/intro.php"
+            live="https://nakpan.info/studentinfo/resetlogin.php"
           />
           <br />
           {/*line break between projects */}
@@ -46,8 +46,9 @@ export default function App() {
           <Projects
             title="Widgets"
             img="/images/widget.jpg"
-            desc="This application consists of multiple simple widgets I build to practice React/Tailwind."
+            desc="This project consists of multiple applications that consume apis for cool features. "
             skills={["html", "css", "js", "react", "tailwind"]}
+            other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
             git="https://github.com/nsikan-na/spa_widgets"
             live="https://nsikan-spa-widgets.netlify.app/"
           />
