@@ -1,5 +1,5 @@
 import React from "react";
-
+//email component 
 export default function Email() {
   return (
     <form className="mt-10 pb-10 bg-white w-10/12 mx-auto rounded-md opacity-90 md:w-9/12">

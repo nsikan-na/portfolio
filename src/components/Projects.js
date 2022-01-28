@@ -1,6 +1,10 @@
 import React from "react";
 
+
+//Projects component
+//reusable since none of the importable data is hard-coded
 export default function Projects({
+  //destructured out props for ease of use
   title,
   img,
   desc,
@@ -48,6 +52,7 @@ export default function Projects({
 
       <div className="justify-center flex flex-wrap py-4 mx-8">
         {skills.map((skill, key) => {
+          //displays each skills out of the skills array prop
           return (
             <img
               key={key}

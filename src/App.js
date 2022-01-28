@@ -8,15 +8,19 @@ export default function App() {
   return (
     <>
       <div id="home" className="">
-        <div className="z-50 bg-pink-300 rounded-b-3xl  h-screen w-full opacity-90 align-auto">
-          <NavBar />
+        <div className="z-50 bg-pink-300 rounded-b-3xl  h-full w-full opacity-90 align-auto">
+          <NavBar /> {/* Header and nav bar components */}
           <Header />
         </div>
         <div id="projects" className="text-center">
           <br />
           <br />
-          <h2 className=" text-pink-300 text-5xl pt-6  md:text-8xl lg:text-8xl">Projects</h2>
+          <h2 className=" text-pink-300 text-5xl pt-6  md:text-8xl lg:text-8xl">
+            Projects
+          </h2>
           <br />
+          {/*projects section
+          Projects are reusable component. I pass in dynamic information as props */}
           <Projects
             title="Manage Student Information"
             img="/images/student.jpg"
@@ -27,6 +31,7 @@ export default function App() {
             live="https://nakpan.info/studentinfo/intro.php"
           />
           <br />
+          {/*line break between projects */}
           <hr
             className="mx-auto"
             style={{
@@ -48,6 +53,7 @@ export default function App() {
           />
         </div>
         <div className="text-center z-0">
+          {/* gradient that starts at the bottom of the screen*/}
           <div
             className="pt-10 pb-20 z-0"
             style={{
@@ -56,11 +62,11 @@ export default function App() {
             }}
           >
             <div id="contact" className="z-0">
-              <br/>
-              <br/>
+              <br />
+              <br />
+              {/* Contact form component */}
               <Email />
             </div>
-          
           </div>
         </div>
       </div>

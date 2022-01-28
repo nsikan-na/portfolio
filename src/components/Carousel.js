@@ -1,3 +1,4 @@
+// this the the typing text feature in the header
 var TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -21,6 +22,7 @@ TxtRotate.prototype.tick = function () {
   this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
+  /* change the speed of the feature here */
   var delta = 150 - Math.random() * 100;
 
   if (this.isDeleting) {
