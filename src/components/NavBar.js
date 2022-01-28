@@ -56,11 +56,11 @@ export default function NavBar() {
     }
   }, [hamNav]);
   return (
-    <div className="text-white pt-4 w-screen z-50">
+    <div className="text-white pt-4 w-full z-50">
       <a href="#home">
-        <img src="/images/logo.png" className="w-7/12 pt-10 -rotate-12 lg:w-3/12" />
+        <img src="/images/logo.png" className="w-7/12 pt-10 -rotate-12 md:w-4/12 lg:w-3/12 2xl:w-2/12" />
       </a>
-      <nav className="z-50 right-0 top-0 fixed p-4 bg-pink-300 w-screen text-right space-x-5 h-14">
+      <nav className="z-50 right-0 top-0 fixed p-4 bg-pink-300 w-full text-right space-x-5 h-14">
         {toggleNav}
       </nav>
     </div>

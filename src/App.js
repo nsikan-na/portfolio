@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <div id="home" className="">
-        <div className="z-50 bg-pink-300 rounded-b-3xl opacity-90 h-screen align-auto">
+        <div className="z-50 bg-pink-300 rounded-b-3xl h-screen w-full opacity-90 align-auto ">
           <NavBar />
           <Header />
         </div>
