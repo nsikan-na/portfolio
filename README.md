@@ -1,38 +1,36 @@
-Welcome to my Portfolio!
-I designed this portfolio to be a place where a recruiter can see my skills through projects.
+# Nsikan Akpan Portfolio! #
+[Visit Live Site](https://nsikan-portfolio.netlify.app/)
 
-This was build using
-React.js (html,javascript)
-Tailwind.css (css)
+This portfolio is designed to show my skills through projects. It was meant to be minimalistic yet effecitive for communicating my skills.
 
-What I like:
-I tried to be very cautious with my audiences time and made relevant information easily accessible.
+## This was build using ##
+* React.js (html,javascript)
+* Tailwind.css (css)
 
-Portfolio uses simple yet efficient design meant to funnel users from brief introduction into projects and finally to my contact form.
+## What I like: ##
+* Made relevant information easily accessible.
 
-Button use active language to get users better feel of what the outcome of pressing the button is.
+* Simple yet efficient design meant to funnel users from brief introduction into projects and finally to my contact form.
 
-Design is not too distracting but enough to keep the site interesting.
+* Use of active language to get users better feel of what the outcome of their input.
 
-Made use of reusable components to build my projects sections so I can add more projects easier in the future.
+* Design/Colors is not too distracting but enough to keep the site interesting.
 
-Smooth scrolling is just nice.
+* Made use of reusable components to make adding more projects easier in the future.
 
-Limit my colors to 3 main color(pink, black, white) to have site be interest but not distracting.
+* Smooth scrolling
 
-Did not hide feature behind a wall.
+* Did not hide features behind any unnessessary wall.
 
-Made use of comments to make code easier to maintain in the future.
+* Made use of comments to make code easier to maintain in the future.
 
-Separated page bases on components causing related html,css,js to easy to see.
+* Separated page based on components causing related html,css,js to be in the same area.
 
-Made use of CSS-in-JS which makes changing style easy to manage.
+* Made site responsive on different devices. (Focused on mobile first.)
 
-Made site responsive on different devices. (Focused on mobile first.)
+## To Do: ##
+* Make email form work.
 
-To Do:
-Make email form work.
+* Build more projects.
 
-Build more projects.
-
-Improve responsiveness
+* Improve responsiveness
