@@ -8,11 +8,12 @@ export default function App() {
   return (
     <>
       <div id="home" className="">
-        <div className="z-50 bg-pink-300 rounded-b-3xl h-screen w-full opacity-90 align-auto ">
+        <div className="z-50 bg-pink-300 rounded-b-3xl  h-screen w-full opacity-90 align-auto">
           <NavBar />
           <Header />
         </div>
         <div id="projects" className="text-center">
+          <br />
           <br />
           <h2 className=" text-pink-300 text-5xl pt-6  md:text-8xl lg:text-8xl">Projects</h2>
           <br />
@@ -48,13 +49,15 @@ export default function App() {
         </div>
         <div className="text-center z-0">
           <div
-            className="pt-10 pb-32 z-0"
+            className="pt-10 pb-20 z-0"
             style={{
               backgroundImage: "linear-gradient(white,#f3acd7)",
               height: "15%",
             }}
           >
             <div id="contact" className="z-0">
+              <br/>
+              <br/>
               <Email />
             </div>
           
