@@ -30,3 +30,14 @@ This portfolio is designed to show my skills through projects. It was meant to b
 - Separated page based on components causing related html,css,js to be in the same area.
 
 - Made site responsive on different devices. (Focused on mobile first.)
+
+
+
+## Desktop Mockup ##
+(decided to switch this design up) 
+
+![desktop](https://user-images.githubusercontent.com/94437730/151643532-c658c2a1-35bf-4c69-a5eb-37f314493b3e.png)
+
+## Mobile Mockup ##
+![mobile](https://user-images.githubusercontent.com/94437730/151643533-c7f8e196-171b-4363-a26b-0845f8166da9.png)
+
