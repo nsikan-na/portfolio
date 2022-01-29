@@ -30,11 +30,3 @@ This portfolio is designed to show my skills through projects. It was meant to b
 - Separated page based on components causing related html,css,js to be in the same area.
 
 - Made site responsive on different devices. (Focused on mobile first.)
-
-## To Do:
-
-- Make email form work.
-
-- Build more projects.
-
-- Improve responsiveness
