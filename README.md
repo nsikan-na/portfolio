@@ -9,7 +9,7 @@ This portfolio is designed to show my skills through projects. It was meant to b
 - React.js (html,javascript)
 - Tailwind.css (css)
 
-## What I like:
+## What I did right:
 
 - Made relevant information easily accessible.
 
