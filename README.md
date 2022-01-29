@@ -1,4 +1,4 @@
-# Nsikan Akpan Portfolio!
+# Nsikan Akpan Portfolio
 
 [Visit Live Site](https://nsikan-portfolio.netlify.app/)
 
