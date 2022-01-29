@@ -50,7 +50,7 @@ export default function App() {
             skills={["html", "css", "js", "react", "tailwind"]}
             other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
             widgets={[
-              `(1) Image Search - This widget fetches 10 images bases off user input from the unsplash api.`,
+              `(1) Image Search - This widget fetches images from the unsplash api based off user input .`,
             ]}
             git="https://github.com/nsikan-na/spa_widgets"
             live="https://nsikan-spa-widgets.netlify.app/"
