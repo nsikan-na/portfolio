@@ -53,7 +53,10 @@ export default function Projects({
         const colors = ["text-red-600"];
         return widgets.map((widget, i) => {
           return (
-            <p key={i} className={`md:text-3xl 2xl:text-4xl mt-2 ${colors[i]}`}>
+            <p
+              key={i}
+              className={`  md:text-3xl 2xl:text-4xl my-2 ${colors[i]}`}
+            >
               {widget}
             </p>
           );
