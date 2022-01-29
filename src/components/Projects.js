@@ -1,6 +1,5 @@
 import React from "react";
 
-
 //Projects component
 //reusable since none of the importable data is hard-coded
 export default function Projects({
@@ -12,6 +11,7 @@ export default function Projects({
   other,
   git,
   live,
+  widgets,
 }) {
   return (
     <div>
@@ -48,6 +48,17 @@ export default function Projects({
       >
         {desc}
       </p>
+      {(() => {
+        if (widgets === undefined || widgets === undefined) return;
+        const colors = ["text-red-600"];
+        return widgets.map((widget, i) => {
+          return (
+            <p key={i} className={`md:text-3xl 2xl:text-4xl mt-2 ${colors[i]}`}>
+              {widget}
+            </p>
+          );
+        });
+      })()}
       <span className="md:text-3xl 2xl:text-4xl"> {other}</span>
 
       <div className="justify-center flex flex-wrap py-4 mx-8">

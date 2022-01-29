@@ -1,36 +1,40 @@
-# Nsikan Akpan Portfolio! #
+# Nsikan Akpan Portfolio!
+
 [Visit Live Site](https://nsikan-portfolio.netlify.app/)
 
 This portfolio is designed to show my skills through projects. It was meant to be minimalistic yet effecitive for communicating my skills.
 
-## This was build using ##
-* React.js (html,javascript)
-* Tailwind.css (css)
+## This was build using
 
-## What I like: ##
-* Made relevant information easily accessible.
+- React.js (html,javascript)
+- Tailwind.css (css)
 
-* Simple yet efficient design meant to funnel users from brief introduction into projects and finally to my contact form.
+## What I like:
 
-* Use of active language to get users better feel of what the outcome of their input.
+- Made relevant information easily accessible.
 
-* Design/Colors is not too distracting but enough to keep the site interesting.
+- Simple yet efficient design meant to funnel users from brief introduction into projects and finally to my contact form.
 
-* Made use of reusable components to make adding more projects easier in the future.
+- Use of active language to get users better feel of what the outcome of their input.
 
-* Smooth scrolling
+- Design/Colors is not too distracting but enough to keep the site interesting.
 
-* Did not hide features behind any unnessessary wall.
+- Made use of reusable components to make adding more projects easier in the future.
 
-* Made use of comments to make code easier to maintain in the future.
+- Smooth scrolling
 
-* Separated page based on components causing related html,css,js to be in the same area.
+- Did not hide features behind any unnessessary wall.
 
-* Made site responsive on different devices. (Focused on mobile first.)
+- Made use of comments to make code easier to maintain in the future.
 
-## To Do: ##
-* Make email form work.
+- Separated page based on components causing related html,css,js to be in the same area.
 
-* Build more projects.
+- Made site responsive on different devices. (Focused on mobile first.)
 
-* Improve responsiveness
+## To Do:
+
+- Make email form work.
+
+- Build more projects.
+
+- Improve responsiveness

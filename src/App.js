@@ -22,11 +22,11 @@ export default function App() {
           {/*projects section
           Projects are reusable component. I pass in dynamic information as props */}
           <Projects
-            title="Manage Student Information"
+            title="Student Information"
             img="/images/student.jpg"
             desc="This is an application where a teacher can manage their student's information. The teacher is able to view all the information without signing in, but must sign in to be able to add, update, or delete student information. The teacher can setup a new account if they do not already have one, and can also change their password once they sign in. All data is stored in a database. (Fake Login Provided)"
             other="Built using Html, Css, BootStrap, JavaScript, Php, and  Sql"
-            skills={["html", "css","bootstrap", "js", "php", "sql"]}
+            skills={["html", "css", "bootstrap", "js", "php", "sql"]}
             git="https://github.com/nsikan-na/student-info"
             live="https://nakpan.info/studentinfo/resetlogin.php"
           />
@@ -49,6 +49,9 @@ export default function App() {
             desc="This project consists of multiple applications that consume apis for cool features. "
             skills={["html", "css", "js", "react", "tailwind"]}
             other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
+            widgets={[
+              `(1) Image Search - This widget fetches 10 images bases off user input from the unsplash api.`,
+            ]}
             git="https://github.com/nsikan-na/spa_widgets"
             live="https://nsikan-spa-widgets.netlify.app/"
           />
