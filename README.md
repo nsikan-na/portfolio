@@ -43,6 +43,7 @@ This portfolio is designed to show my skills through projects. It was meant to b
 
 
 ## Desktop Mockup ##
+(decided to switch this design up) 
 ![desktop](https://user-images.githubusercontent.com/94437730/151643532-c658c2a1-35bf-4c69-a5eb-37f314493b3e.png)
 
 ## Mobile Mockup ##
