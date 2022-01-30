@@ -31,13 +31,13 @@ This portfolio is designed to show my skills through projects. It was meant to b
 
 - Made site responsive on different devices. (Focused on mobile first.)
 
+Decided to switch these mockups up, but I used them as a guideline.
+(The email is commented out. I'll make it public when it works.)
 
-
-## Desktop Mockup ##
-(decided to switch this design up) 
+## Desktop Mockup
 
 ![desktop](https://user-images.githubusercontent.com/94437730/151643532-c658c2a1-35bf-4c69-a5eb-37f314493b3e.png)
 
-## Mobile Mockup ##
-![mobile](https://user-images.githubusercontent.com/94437730/151643533-c7f8e196-171b-4363-a26b-0845f8166da9.png)
+## Mobile Mockup
 
+![mobile](https://user-images.githubusercontent.com/94437730/151643533-c7f8e196-171b-4363-a26b-0845f8166da9.png)

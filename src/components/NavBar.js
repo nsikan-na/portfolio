@@ -48,7 +48,7 @@ export default function NavBar() {
           >
             Projects
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="text-xl md:invisible"
             onClick={() => {
@@ -56,7 +56,7 @@ export default function NavBar() {
             }}
           >
             Contact Me
-          </a>
+          </a> */}
         </>
       );
     }
@@ -91,7 +91,7 @@ export default function NavBar() {
           >
             Projects
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="text-3xl lg:text-4xl 2xl:text-5xl"
             onClick={() => {
@@ -99,7 +99,7 @@ export default function NavBar() {
             }}
           >
             Contact Me
-          </a>
+          </a> */}
           </div>
       </nav>
     </div>

@@ -55,7 +55,7 @@ export default function Projects({
           return (
             <p
               key={i}
-              className={`  md:text-3xl 2xl:text-4xl my-2 ${colors[i]}`}
+              className={`w-11/12  md:text-3xl 2xl:text-4xl my-2 ${colors[i]}`}
             >
               {widget}
             </p>

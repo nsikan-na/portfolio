@@ -26,12 +26,12 @@ export default function Header() {
         ></span>
       </div>
       <a href="#contact">
-        <button
+        {/* <button
           style={{ border: "1px solid white" }}
           className="mx-3.5 bg-pink-300 text-white p-2 rounded-xl text-3xl my-4 md:text-5xl md:p-4 lg:text-4xl 2xl:text-5xl"
         >
           Lets Work Together!
-        </button>
+        </button> */}
       </a>
       <a href="#projects">
         <div className="text-xl my-6 md:text-4xl md:py-2 lg:py-0 lg:text-3xl 2xl:py-0 2xl:text-4xl" >Check Out My Projects!</div>

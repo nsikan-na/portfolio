@@ -1,10 +1,19 @@
 import React from "react";
-//email component 
+//email component
+
+//when done, 4 things that need to uncommented
+//Header: lets connect button
+//this component in email
+//nav bar for mobile and desktop
 export default function Email() {
   return (
     <form className="mt-10 pb-10 bg-white w-10/12 mx-auto rounded-md opacity-90 md:w-9/12">
-      <h2 className=" text-pink-300 text-5xl pt-6 md:text-8xl 2xl:text-9xl">Contact Me</h2>
-      <div className="text-xl md:text-3xl lg:my-5 2xl:text-4xl" >nsikan.na@gmail.com</div>
+      <h2 className=" text-pink-300 text-5xl pt-6 md:text-8xl 2xl:text-9xl">
+        Contact Me
+      </h2>
+      <div className="text-xl md:text-3xl lg:my-5 2xl:text-4xl">
+        nsikan.na@gmail.com
+      </div>
       <label className="text-2xl md:text-4xl 2xl:text-5xl" htmlFor="name/org">
         Name/Org
       </label>
@@ -12,11 +21,14 @@ export default function Email() {
       <input
         id="name/org"
         type="text"
-        className="bg-pink-200 rounded-md h-10  my-2 w-9/12 md:h-16 2xl:h-20 md:w-7/12 text-1xl p-2 md:text-2xl lg:w-5/12 2xl:w-3/12 2xl:text-4xl"
+        className="bg-pink-200 rounded-md h-10 my-2 w-9/12 md:h-16 2xl:h-20 md:w-7/12 text-1xl p-2 md:text-2xl lg:w-5/12 2xl:w-3/12 2xl:text-4xl"
         style={{ border: "1px solid black" }}
       />
       <br />
-      <label htmlFor="email" className="text-2xl md:text-4xl w-7/12 2xl:text-5xl "  >
+      <label
+        htmlFor="email"
+        className="text-2xl md:text-4xl w-7/12 2xl:text-5xl "
+      >
         Email
       </label>
       <br />
