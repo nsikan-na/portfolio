@@ -7,7 +7,7 @@ import Email from "./components/Email";
 export default function App() {
   return (
     <>
-      <div id="home" className="">
+      <div id="home" className="bg-gray-100">
         <div className="z-50 bg-pink-300 rounded-b-3xl  h-full w-full opacity-90 align-auto">
           <NavBar /> {/* Header and nav bar components */}
           <Header />
@@ -33,7 +33,7 @@ export default function App() {
           <br />
           {/*line break between projects */}
           <hr
-            className="mx-auto"
+            className="mx-auto shadow"
             style={{
               color: "rgba(249, 168, 212",
               backgroundColor: "rgba(249, 168, 212",
@@ -45,15 +45,33 @@ export default function App() {
           <br />
           <Projects
             title="Widgets"
-            img="/images/widget.jpg"
-            desc="This project consists of multiple applications that consume apis for cool features. "
+            img="/images/investing.jpg"
+            desc="This is Ramsey Solution's investing calculator Clone."
             skills={["html", "css", "js", "react", "tailwind"]}
             other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
-            widgets={[
-              `(1) Image Search - This widget fetches images from the unsplash api based off user input.`,
-            ]}
-            git="https://github.com/nsikan-na/spa_widgets"
-            live="https://nsikan-spa-widgets.netlify.app/"
+            git="https://github.com/nsikan-na/investment_calulator"
+            live="https://nsikan-investment-calculator.netlify.app/"
+          />
+
+          <hr
+            className="mx-auto shadow"
+            style={{
+              color: "rgba(249, 168, 212",
+              backgroundColor: "rgba(249, 168, 212",
+              height: 3,
+              width: "90%",
+            }}
+          />
+
+          <br />
+          <Projects
+            title="Images Search"
+            img="/images/google-images.jpg"
+            desc="This is a clone of google but only fetches 10 images bases off user input from the unsplash api and displays one randomly."
+            skills={["html", "css", "js", "react", "tailwind"]}
+            other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
+            git="https://github.com/nsikan-na/images-search"
+            live="https://nsikan-image-search.netlify.app/"
           />
         </div>
         <div className="text-center z-0">
@@ -61,7 +79,7 @@ export default function App() {
           <div
             className="pt-10 pb-20 z-0"
             style={{
-              backgroundImage: "linear-gradient(white,#f3acd7)",
+              backgroundImage: "linear-gradient(rgba(243, 244, 246),#f3acd7)",
               height: "15%",
             }}
           >

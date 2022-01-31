@@ -14,7 +14,7 @@ export default function Projects({
   widgets,
 }) {
   return (
-    <div>
+    <div className=''>
       <a href={live} target="_blank">
         <h3 className=" text-2xl underline md:text-5xl">{title}</h3>
       </a>
@@ -72,7 +72,7 @@ export default function Projects({
               key={key}
               title={`${skill}`}
               className="w-3/12 my-2 mx-2 md:w-2/12 md:mx-8 lg:w-1/12  2xl:w-40"
-              src={`/images/pic/${skill}.png`}
+              src={`/images/${skill}.png`}
             />
           );
         })}
