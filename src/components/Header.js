@@ -13,7 +13,7 @@ export default function Header() {
             src="images/linkin.png"
             className="w-7/12 mx-auto md:w-5/12 lg:w-16  2xl:w-22 "
           />
-
+        </a>
         <a href="https://github.com/nsikan-na" target="_blank">
           <img
             src="images/github.png"
