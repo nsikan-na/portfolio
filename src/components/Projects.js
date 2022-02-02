@@ -8,7 +8,7 @@ export default function Projects({
   img,
   desc,
   skills,
-  other,
+  tech,
   git,
   live,
   widgets,
@@ -46,7 +46,7 @@ export default function Projects({
         style={{ textIndent: "12%" }}
         className="w-10/12 mx-auto py-4 text-left md:text-3xl 2xl:text-4xl"
       >
-        {desc}
+        {desc} This was built using {tech}.
       </p>
       {/* {(() => {
         if (widgets === undefined || widgets === undefined) return;
@@ -62,21 +62,21 @@ export default function Projects({
           );
         });
       })()} */}
-      <span className="md:text-3xl 2xl:text-4xl"> {other}</span>
+      {/* <span className="w-1/12 md:text-3xl 2xl:text-4xl"> {tech}</span> */}
 
-      {/* <div className="justify-center flex flex-wrap py-4 mx-8">
+      <div className="justify-center flex flex-wrap py-4 mx-8">
         {skills.map((skill, key) => {
           //displays each skills out of the skills array prop
           return (
             <img
               key={key}
               title={`${skill}`}
-              className="w-3/12 my-2 mx-2 md:w-2/12 md:mx-8 lg:w-1/12  2xl:w-40"
+              className="w-2/12 my-2 mx-2 md:w-1/12 md:mx-8 lg:w-16  2xl:w-24"
               src={`/images/${skill}.png`}
             />
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 }
