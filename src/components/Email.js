@@ -7,7 +7,7 @@ import React from "react";
 //nav bar for mobile and desktop
 export default function Email() {
   return (
-    <form  method="Post" netlify netlify-honeypot="bot-field" name='contact' hidden className="mt-10 pb-10 bg-white w-10/12 mx-auto rounded-md opacity-90 md:w-9/12">
+    <form  method="Post" name='contact' className="mt-10 pb-10 bg-white w-10/12 mx-auto rounded-md opacity-90 md:w-9/12">
            <input type="hidden" name="form-name" value="contact" />
       <h2 className=" text-pink-300 text-5xl pt-6 md:text-8xl 2xl:text-9xl">
         Contact Me
