@@ -9,9 +9,7 @@ export default function Email() {
       <h2 className=" text-pink-300 text-5xl pt-6 md:text-8xl 2xl:text-9xl">
         Contact Me
       </h2>
-      <div className="text-lg md:text-2xl lg:my-5 2xl:text-3xl">
-      @  nsikan.na@gmail.com
-      </div>
+
       <label className="text-2xl md:text-4xl 2xl:text-5xl" htmlFor="name" >
         Name/Org
       </label>
