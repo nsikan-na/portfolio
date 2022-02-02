@@ -32,7 +32,7 @@ export default function App() {
             live="https://nakpan.info/studentinfo/resetlogin.php"
           />
           <br />
-          {/*line break between projects */}
+
           <hr
             className="mx-auto shadow"
             style={{
@@ -88,7 +88,7 @@ export default function App() {
               <br />
               <br />
 
-              {/* <Email /> */}
+              <Email />
             </div>
           </div>
         </div>
