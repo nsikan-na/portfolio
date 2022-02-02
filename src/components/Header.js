@@ -22,7 +22,7 @@ export default function Header() {
         <span
           className="txt-rotate"
           data-period="500"
-          data-rotate='[ " a Software Developer.", " a Web developer.", " a Front-End Developer"]'
+          data-rotate='[ " a Software Developer.", " a Web developer.", " a Front-End Developer."]'
         ></span>
       </div>
       <a href="#contact">
