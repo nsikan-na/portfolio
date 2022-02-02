@@ -1,10 +1,7 @@
 import React from "react";
-//email component
 
-//when done, 4 things that need to uncommented
-//Header: lets connect button
-//this component in email
-//nav bar for mobile and desktop
+
+
 export default function Email() {
   return (
     <form  method="Post" name='contact' className="mt-10 pb-10 bg-white w-10/12 mx-auto rounded-md opacity-90 md:w-9/12">
@@ -12,8 +9,8 @@ export default function Email() {
       <h2 className=" text-pink-300 text-5xl pt-6 md:text-8xl 2xl:text-9xl">
         Contact Me
       </h2>
-      <div className="text-xl md:text-3xl lg:my-5 2xl:text-4xl">
-        nsikan.na@gmail.com
+      <div className="text-lg md:text-2xl lg:my-5 2xl:text-3xl">
+      @  nsikan.na@gmail.com
       </div>
       <label className="text-2xl md:text-4xl 2xl:text-5xl" htmlFor="name" >
         Name/Org

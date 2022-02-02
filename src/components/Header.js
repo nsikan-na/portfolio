@@ -17,21 +17,21 @@ export default function Header() {
           <img src="images/github.png" className="w-5/12 mx-auto md:w-3/12 lg:w-16 2xl:w-22" />
         </a>
       </div>
-      {/* <div className="text-3xl my-4 w-11/12 md:text-4xl 2xl:py-6 2xl:text-5xl">
+      <div className="text-2xl my-4 w-11/12 md:text-3xl 2xl:py-6 2xl:text-4xl">
         I am
         <span
           className="txt-rotate"
           data-period="500"
-          data-rotate='[ " a Software Developer.", " a Web developer.", " a Front-End Developer", " passionate about Web Development." ]'
+          data-rotate='[ " a Software Developer.", " a Web developer.", " a Front-End Developer"]'
         ></span>
-      </div> */}
+      </div>
       <a href="#contact">
-        {/* <button
+        <button
           style={{ border: "1px solid white" }}
           className="mx-3.5 bg-pink-300 text-white p-2 rounded-xl text-3xl my-4 md:text-5xl md:p-4 lg:text-4xl 2xl:text-5xl"
         >
           Lets Work Together!
-        </button> */}
+        </button>
       </a>
       <a href="#projects">
         <div className="text-xl my-6 md:text-4xl md:py-2 lg:py-0 lg:text-3xl 2xl:py-0 2xl:text-4xl" >Check Out My Projects!</div>
