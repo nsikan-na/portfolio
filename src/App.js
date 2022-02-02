@@ -10,7 +10,7 @@ export default function App() {
       <div id="home" className="bg-gray-100">
         <div className="z-50 bg-pink-300  h-full w-full opacity-90 align-auto">
           <NavBar />
-           {/* Header and nav bar components */}
+           
           <Header />
         </div>
         <div id="projects" className="text-center">
@@ -21,7 +21,7 @@ export default function App() {
           </h2>
           <br />
           {/*projects section
-          Projects are reusable component. I pass in dynamic information as props */}
+          Projects are reusable component. I pass in information as props */}
           <Projects
             title="Student Grades"
             img="/images/student.jpg"
@@ -54,26 +54,6 @@ export default function App() {
             live="https://nsikan-investment-calculator.netlify.app/"
           />
 
-          {/* <hr
-            className="mx-auto shadow"
-            style={{
-              color: "rgba(249, 168, 212",
-              backgroundColor: "rgba(249, 168, 212",
-              height: 3,
-              width: "90%",
-            }}
-          />
-
-          <br />
-          <Projects
-            title="Images Search"
-            img="/images/google-images.jpg"
-            desc="This is a clone of google but only fetches 10 images bases off user input from the unsplash api and displays one randomly."
-            skills={["html", "css", "js", "react", "tailwind"]}
-            other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
-            git="https://github.com/nsikan-na/images-search"
-            live="https://nsikan-image-search.netlify.app/"
-          /> */}
         </div>
         <div className="text-center z-0">
           {/* gradient that starts at the bottom of the screen*/}

@@ -3,7 +3,6 @@ import React from "react";
 //Projects component
 //reusable since none of the importable data is hard-coded
 export default function Projects({
-  //destructured out props for ease of use
   title,
   img,
   desc,
@@ -48,21 +47,6 @@ export default function Projects({
       >
         {desc} This was built using {tech}.
       </p>
-      {/* {(() => {
-        if (widgets === undefined || widgets === undefined) return;
-        const colors = ["text-red-600"];
-        return widgets.map((widget, i) => {
-          return (
-            <p
-              key={i}
-              className={`w-11/12  md:text-3xl 2xl:text-4xl my-2 ${colors[i]}`}
-            >
-              {widget}
-            </p>
-          );
-        });
-      })()} */}
-      {/* <span className="w-1/12 md:text-3xl 2xl:text-4xl"> {tech}</span> */}
 
       <div className="justify-center flex flex-wrap py-4 mx-8">
         {skills.map((skill, key) => {
