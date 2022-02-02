@@ -13,7 +13,7 @@ export default function Header() {
             <img src="images/resume.png" className="w-5/12 lg:mx-20 mx-auto md:w-3/12 lg:w-16  2xl:w-22" />
           </a>
 
-        <a href="https://github.com/nsikan-na/portfolio" target="_blank">
+        <a href="https://github.com/nsikan-na" target="_blank">
           <img src="images/github.png" className="w-5/12 mx-auto md:w-3/12 lg:w-16 2xl:w-22" />
         </a>
       </div>
