@@ -48,7 +48,7 @@ export default function Projects({
       >
         {desc}
       </p>
-      {(() => {
+      {/* {(() => {
         if (widgets === undefined || widgets === undefined) return;
         const colors = ["text-red-600"];
         return widgets.map((widget, i) => {
@@ -61,10 +61,10 @@ export default function Projects({
             </p>
           );
         });
-      })()}
+      })()} */}
       <span className="md:text-3xl 2xl:text-4xl"> {other}</span>
 
-      <div className="justify-center flex flex-wrap py-4 mx-8">
+      {/* <div className="justify-center flex flex-wrap py-4 mx-8">
         {skills.map((skill, key) => {
           //displays each skills out of the skills array prop
           return (
@@ -76,7 +76,7 @@ export default function Projects({
             />
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

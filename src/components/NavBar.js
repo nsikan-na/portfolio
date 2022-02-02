@@ -69,28 +69,28 @@ export default function NavBar() {
       </a>
       <nav className="z-50 right-0 top-0 fixed p-4 bg-pink-300 w-full text-right space-x-5 h-14 md:h-16 2xl:h-20">
         {toggleNav}
-        <div className="invisible md:visible space-x-5 ">
+        {/* <div className="invisible md:visible space-x-5 "> */}
 
-        {/* non-mobile nav bar
-        is invisible on mobile*/}
-        <a
-            href="#home"
-            className="text-3xl lg:text-4xl 2xl:text-5xl"
-            onClick={() => {
-              setHamNav(false);
-            }}
-          >
-            Home
-          </a>
-          <a
-            href="#projects"
-            className="text-3xl lg:text-4xl 2xl:text-5xl"
-            onClick={() => {
-              setHamNav(false);
-            }}
-          >
-            Projects
-          </a>
+        {/* non-mobile nav bar */}
+        {/* is invisible on mobile */}
+        {/* <a */}
+            {/* href="#home" */}
+            {/* className="text-3xl lg:text-4xl 2xl:text-5xl" */}
+            {/* onClick={() => { */}
+              {/* setHamNav(false); */}
+            {/* }} */}
+          {/* > */}
+            {/* Home */}
+          {/* </a> */}
+          {/* <a */}
+            {/* href="#projects" */}
+            {/* className="text-3xl lg:text-4xl 2xl:text-5xl" */}
+            {/* onClick={() => { */}
+              {/* setHamNav(false); */}
+            {/* }} */}
+          {/* > */}
+            {/* Projects */}
+          {/* </a> */}
           {/* <a
             href="#contact"
             className="text-3xl lg:text-4xl 2xl:text-5xl"
@@ -100,7 +100,7 @@ export default function NavBar() {
           >
             Contact Me
           </a> */}
-          </div>
+          {/* </div> */}
       </nav>
     </div>
   );

@@ -8,8 +8,9 @@ export default function App() {
   return (
     <>
       <div id="home" className="bg-gray-100">
-        <div className="z-50 bg-pink-300 rounded-b-3xl  h-full w-full opacity-90 align-auto">
-          <NavBar /> {/* Header and nav bar components */}
+        <div className="z-50 bg-pink-300  h-full w-full opacity-90 align-auto">
+          <NavBar />
+           {/* Header and nav bar components */}
           <Header />
         </div>
         <div id="projects" className="text-center">
@@ -47,13 +48,13 @@ export default function App() {
             title="Widgets"
             img="/images/investing.jpg"
             desc="This is Ramsey Solution's investing calculator Clone."
-            skills={["html", "css", "js", "react", "tailwind"]}
+            skills={["html", "css", "js", "react", "tailwind","material"]}
             other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
             git="https://github.com/nsikan-na/investment_calulator"
             live="https://nsikan-investment-calculator.netlify.app/"
           />
 
-          <hr
+          {/* <hr
             className="mx-auto shadow"
             style={{
               color: "rgba(249, 168, 212",
@@ -72,7 +73,7 @@ export default function App() {
             other="Built using React.js and Tailwind.css (Html,Css, JavaScript)"
             git="https://github.com/nsikan-na/images-search"
             live="https://nsikan-image-search.netlify.app/"
-          />
+          /> */}
         </div>
         <div className="text-center z-0">
           {/* gradient that starts at the bottom of the screen*/}
@@ -86,7 +87,7 @@ export default function App() {
             <div id="contact" className="z-0">
               <br />
               <br />
-              {/* Contact form component */}
+
               {/* <Email /> */}
             </div>
           </div>
