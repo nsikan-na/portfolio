@@ -47,7 +47,7 @@ export default function App() {
           <Projects
             title="Investment Calculator"
             img="/images/investing.jpg"
-            desc="This is an clone of an investment calculator I use often (Ramsey Solution Investment Calculator). My focus of this project was to provide a responsive interface, turn a psd into a website, manage state using React's context api, connect to an charting api asynchronously based off validated user input."
+            desc="This is an clone of an investment calculator I use often (Ramsey Solution Investment Calculator). My focus of this project was to provide a responsive interface, turn a psd into a website, manage state using React's context api,and connect to an charting api asynchronously based off validated user input."
             skills={["react", "tailwind","material"]}
             tech="React.js, Tailwind.css, and Material UI"
             git="https://github.com/nsikan-na/investment_calulator"
