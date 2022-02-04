@@ -48,7 +48,7 @@ export default function Projects({
         {desc} This was built using {tech}.
       </p>
 
-      <div className="justify-center flex flex-wrap py-4 mx-8">
+      {/* <div className="justify-center flex flex-wrap py-4 mx-8">
         {skills.map((skill, key) => {
           //displays each skills out of the skills array prop
           return (
@@ -60,7 +60,7 @@ export default function Projects({
             />
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
