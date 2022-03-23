@@ -17,14 +17,19 @@ export default function ProjectTemplate({
       <p>{desc}</p>
       <div>
         <a href={demoLink} target="_blank">
-          <button>View Demo</button>
+          <button>View Live Site</button>
         </a>
         <a href={githubLink} target="_blank">
-          <button>View Code</button>{" "}
+          <button>View Source Code</button>{" "}
         </a>
       </div>
       <br />
-      <iframe width="640px" height="360px" src={`https://www.youtube.com/embed/${video}`} controls></iframe>
+      <iframe
+        width="640px"
+        height="360px"
+        src={`https://www.youtube.com/embed/${video}`}
+        controls
+      ></iframe>
     </div>
   );
 }

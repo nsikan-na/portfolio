@@ -20,7 +20,7 @@ export default function Projects() {
         desc="This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator)."
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
-        video='XRy9F8eoCM0'
+        video="XRy9F8eoCM0"
       />
       <ProjectTemplate
         title="Gwinnett Diner"
@@ -42,7 +42,7 @@ export default function Projects() {
         desc="This is an e-commerce for a company named Gwinnett Diner. "
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
-        video='wZVcoJX6_Fk'
+        video="wZVcoJX6_Fk"
       />
     </div>
   );

@@ -3,14 +3,13 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      <h5>Contact Me</h5>
       <form>
         <input name="name" placeholder="name" type="text" />
-        <br/>
+        <br />
         <input name="email" placeholder="email" type="email" />
-        <br/>
+        <br />
         <textarea name="message" placeholder="Message" type="message" />
-        <br/>
+        <br />
         <button
           onClick={(e) => {
             e.preventDefault();

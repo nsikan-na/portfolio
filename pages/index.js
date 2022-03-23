@@ -17,8 +17,8 @@ export default function index() {
       <Skills />
       <h3>Projects</h3>
       <Projects />
-      <h3>Contact</h3>
-      <Contact/>
+      <h3>Contact Me</h3>
+      <Contact />
       <Footer />
     </div>
   );
