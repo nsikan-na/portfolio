@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --main-color: rgb(0, 209, 181);
+  /* --main-color: rgb(221, 160, 211); */
+}
+html{
+  scroll-behavior: smooth;
+}
+.primaryButton {
+  border: 1.75px solid var(--main-color);
+}
+.primaryButton:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+.secondaryButton {
+  border: 2.75px solid white;
+}
+.secondaryButton:hover {
+  color: var(--main-color);
+  background-color: white;
+}
+
+.primaryText {
+  color: var(--main-color);
+}
+
+.primaryBackground {
+  background-color: var(--main-color);
+}
+.sectionPadding {
+  padding: 3rem 4rem 3rem 4rem;
+}
+.input {
+  width: 75%;
+  border: 1px solid black;
+  margin-top: 1rem;
+  padding:1% 2% 1% 2%;
+}

@@ -1,25 +1,18 @@
 import React from "react";
 import Hero from "../components/Hero";
-import About from "../components/About";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 export default function index() {
+  //linear-gradient(to right, #08EABE , #08EABE)
   return (
     <div>
-      <Navbar />
+      <Nav />
       <Hero />
-      <h3>About</h3>
-      <About />
-      <h3>Skills</h3>
       <Skills />
-      <h3>Projects</h3>
       <Projects />
-      <h3>Contact Me</h3>
       <Contact />
-      <Footer />
     </div>
   );
 }
