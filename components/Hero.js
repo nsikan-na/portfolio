@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <div className="h-screen  justify-center items-center flex flex-col">
       <div className="sectionPadding">
-        <h1 className="text-5xl font-bold py-2">
-          Hi, I'm <span className="primaryText">Nsikan Akpan.</span>
+        <h1 className="text-5xl font-bold py-2 text-center">
+          Hi, I'm <span className="primaryText ">Nsikan Akpan.</span>
         </h1>
-        <h2 className="text-4xl font-bold py-2">I'm a software developer.</h2>
+        <h2 className="text-4xl font-bold py-2 text-center">I'm a web developer.</h2>
       </div>
       <div className="">
         {["Skills", "Projects", "Contact Me"].map((txt) => (

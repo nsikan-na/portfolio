@@ -11,7 +11,9 @@ export default function ProjectTemplate({
   return (
     <div className="py-4 lg:flex lg:justify-evenly ">
       <div className="lg:w-4/12">
-        <h4 className="text-2xl font-bold py-2">{title}</h4>
+        <a href={demoLink} target="_blank">
+          <h4 className="text-2xl font-bold py-2 projectLink">{title}</h4>
+        </a>
         <div className="py-2 ">
           {skills.map((skill) => (
             <button
@@ -23,7 +25,13 @@ export default function ProjectTemplate({
             </button>
           ))}
         </div>
-        <p className="py-2 font-semibold text-xl">{desc}</p>
+        <ul>
+          {desc.map((item) => (
+            <li className="font-semibold text-xl " key={item}>
+              {item}
+            </li>
+          ))}
+        </ul>
         <div className="py-2">
           <a href={demoLink} target="_blank">
             <button className=" px-1 primaryText primaryButton font-bold rounded-md text-xl">
@@ -39,13 +47,15 @@ export default function ProjectTemplate({
       </div>
       <div className="lg:w-5/12">
         <div className="flex justify-center items-center mt-4  ">
-          <Image
-            src={`/images/${gif}.gif`}
-            width="640%"
-            height="350%"
-            alt={title}
-            className="rounded-lg"
-          />
+          <a href={demoLink} target="_blank">
+            <Image
+              src={`/images/${gif}.gif`}
+              width="640%"
+              height="350%"
+              alt={title}
+              className="rounded-lg cursor-pointer"
+            />
+          </a>
         </div>
       </div>
     </div>

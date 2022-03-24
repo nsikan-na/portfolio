@@ -16,10 +16,16 @@ export default function Projects() {
           "Context Api",
           "Quick Chart Api",
         ]}
-        desc="This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator). This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator)."
+        desc={[
+          "Responsive interface",
+          "Turn a psd into a website",
+          `Manage state using React's context api`,
+          "Validate user input",
+          "Consume charting api (QuickChart.io) asynchronously based off user input.",
+        ]}
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
-        gif='investment'
+        gif="investment"
       />
       <ProjectTemplate
         title="Gwinnett Diner"
@@ -30,10 +36,17 @@ export default function Projects() {
           "Next.js",
           "Context Api",
         ]}
-        desc="This is an e-commerce for a company named Gwinnett Diner. This is an e-commerce for a company named Gwinnett Diner."
+        desc={[
+          `Responsive interface`,
+          `Turn a psd into a website`,
+          `Manage state using React's context api`,
+          `Validate user input`,
+          `Store user data in database using nosql`,
+          `Work on a team complete website before deadline (I was a developer)`,
+        ]}
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
-       gif='diner'
+        gif="diner"
       />
     </div>
   );
