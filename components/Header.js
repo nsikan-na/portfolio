@@ -5,7 +5,7 @@ export default function Header({ text, textColor }) {
     <h3
       className={`${
         textColor == "white" ? "text-white" : ""
-      } text-2xl py-8 text-center font-bold`}
+      } text-4xl py-8 text-center font-bold`}
       id={text}
     >
       {text}

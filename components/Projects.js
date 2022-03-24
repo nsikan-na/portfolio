@@ -16,10 +16,10 @@ export default function Projects() {
           "Context Api",
           "Quick Chart Api",
         ]}
-        desc="This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator).This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator).This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator).This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator).This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator)."
+        desc="This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator). This is a clone of an investment calculator I use often (Ramsey Solution Investment Calculator)."
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
-        video="XRy9F8eoCM0"
+        gif='investment'
       />
       <ProjectTemplate
         title="Gwinnett Diner"
@@ -30,10 +30,10 @@ export default function Projects() {
           "Next.js",
           "Context Api",
         ]}
-        desc="This is an e-commerce for a company named Gwinnett Diner. This is an e-commerce for a company named Gwinnett Diner.This is an e-commerce for a company named Gwinnett Diner.This is an e-commerce for a company named Gwinnett Diner."
+        desc="This is an e-commerce for a company named Gwinnett Diner. This is an e-commerce for a company named Gwinnett Diner."
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
-        video="wZVcoJX6_Fk"
+       gif='diner'
       />
     </div>
   );

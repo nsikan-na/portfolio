@@ -5,8 +5,8 @@ export default function Skills() {
   return (
     <div className="primaryBackground sectionPadding">
       <Header text="Skills" textColor="white" />
-      <div className="flex justify-evenly">
-        <div className="grid grid-cols-4 gap-4 w-5/12">
+      <div className="md:flex justify-evenly">
+        <div className="grid grid-cols-3 gap-2 md:w-5/12  flex-wrap justify-evenly lg:w-4/12">
           {[
             "Html",
             "Css",
@@ -20,22 +20,19 @@ export default function Skills() {
             "Next.js",
             "MongoDB",
           ].map((skill) => (
-            <div
-              key={skill}
-              title={skill}
-              className="bg-gray-100 pt-3 px-4 rounded-full"
-            >
+            <div key={skill}>
               <Image
-                src={`/images/skills/${skill}.png`}
+                src={`/images/newskills/${skill}.png`}
                 alt={`${skill} icon`}
-                width="40%"
-                height="40%"
-                className="cursor-auto"
+                title={skill}
+                width="90%"
+                height="90%"
+                className="cursor-auto "
               />
             </div>
           ))}
         </div>
-        <div className="w-5/12 text-white font-semibold">
+        <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p>
             {`
           Lorem Ipsum is simply dummy text of the printing and typesetting

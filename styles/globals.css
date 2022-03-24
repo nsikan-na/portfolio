@@ -4,7 +4,6 @@
 
 :root {
   --main-color: rgb(0, 209, 181);
-  /* --main-color: rgb(221, 160, 211); */
 }
 html{
   scroll-behavior: smooth;
@@ -32,11 +31,12 @@ html{
   background-color: var(--main-color);
 }
 .sectionPadding {
-  padding: 3rem 4rem 3rem 4rem;
+  padding: 2rem 3rem 2rem 3rem;
 }
 .input {
   width: 75%;
   border: 1px solid black;
   margin-top: 1rem;
   padding:1% 2% 1% 2%;
+  border-radius: .5rem;
 }
