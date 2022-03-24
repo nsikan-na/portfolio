@@ -66,9 +66,9 @@ export default function NavBar() {
       <a href="#home">
         <img src="/images/logo.png" className="w-5/12 pt-10 -rotate-12 md:w-4/12 lg:w-3/12 2xl:w-2/12" />
       </a>
-      <nav className="z-50 right-0 top-0 fixed p-4 bg-pink-300 w-full text-right space-x-5 h-14  md:h-16 2xl:h-20">
+      <nav className="z-50 right-0 top-0 fixed p-4 bg-pink-300 w-full text-right space-x-5 h-14 md:invisible md:h-16 2xl:h-20">
         {toggleNav}
-        <div className="invisible md:visible space-x-5 ">
+        <div className="invisible  space-x-5 ">
 
         <a
              href="#home" 
