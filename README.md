@@ -1,6 +1,6 @@
 # Nsikan Akpan Portfolio
 
-[Visit Live Site](https://nsikan-portfolio.netlify.app/)
+[Visit Live Site](https://nsikan-portfolio.vercel.app/)
 
 This portfolio is designed to show my skills through projects. It was meant to be minimalistic yet effecitive for communicating my skills.
 
