@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Nav() {
   return (
-    <div className="flex flex-col justify-between h-1/6  fixed bottom-5 right-1">
+    <div className="flex flex-col justify-between h-1/6  fixed bottom-16 right-1">
       {[
         { title: "linkedin", link: "https://www.linkedin.com/in/nsikan-na/" },
         { title: "github", link: "https://github.com/nsikan-na" },
