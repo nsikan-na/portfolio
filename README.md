@@ -6,5 +6,5 @@ This portfolio is designed to show my skills through projects. It was meant to b
 
 ## This was build using
 
-- React.js (html,javascript)
-- Tailwind.css (css)
+- Next.js (React.js)
+- Tailwind.css 
