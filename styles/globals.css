@@ -16,7 +16,7 @@ html {
   background-color: var(--main-color);
 }
 .secondaryButton {
-  border: 2.75px solid white;
+  border: 1.75px solid white;
 }
 .secondaryButton:hover {
   color: var(--main-color);
