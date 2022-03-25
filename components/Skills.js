@@ -33,14 +33,14 @@ export default function Skills() {
           ))}
         </div>
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
-          <p className="indent-5">
+          <p className="indent-12">
             I am software developer passionate about developing interactive,
-            user-friendly websites. I am currently using the JAM stack but more
-            importantly I am willing to learn any technology to get the job
-            done.
+            user-friendly websites. I am currently building using the Jamstack
+            stack/ MERN (MongoDB, Express.js, React.js, Node.js) stack, but I am
+            willing to learn any technology to get the job done.
           </p>
           <br />
-          <p className="indent-5	">
+          <p className="indent-12	">
             I will graduate from{" "}
             <a
               href="https://gwinnetttech.edu/websitedesignanddevelopment/"

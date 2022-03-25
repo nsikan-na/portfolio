@@ -1,7 +1,5 @@
 import React from "react";
-import { useRouter } from "next/router";
 export default function Hero() {
-  const router = useRouter();
   return (
     <div className="h-screen  justify-center items-center flex flex-col">
       <div className="sectionPadding">
