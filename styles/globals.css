@@ -34,7 +34,7 @@ body{
   background-color: var(--main-color);
 }
 .sectionPadding {
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 2.5rem 2rem 2.5rem;
 }
 .input {
   width: 75%;

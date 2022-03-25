@@ -32,7 +32,7 @@ export default function ProjectTemplate({
             </li>
           ))}
         </ul>
-        <div className="py-2">
+        <div className="py-2 flex">
           <a href={demoLink} target="_blank">
             <button className=" px-1 primaryText primaryButton font-bold rounded-md text-xl">
               Visit Site

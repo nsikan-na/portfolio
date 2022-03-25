@@ -12,11 +12,11 @@ export default function Hero() {
           I'm a web developer.
         </h2>
       </div>
-      <div className="">
+      <div className="flex flex-col md:flex-row  ">
         {["Skills", "Projects", "Contact Me"].map((txt) => (
           <div key={txt} className="inline">
             <a href={`#${txt}`}>
-              <button className="rounded-md py-1 px-2 my-2 primaryText primaryButton text-xl md:text-2xl font-bold">
+              <button className="rounded-md w-full py-1 px-2  primaryText primaryButton text-xl md:text-2xl font-bold">
                 {txt}
               </button>
             </a>

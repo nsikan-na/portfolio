@@ -6,7 +6,7 @@ export default function Skills() {
     <div className="primaryBackground sectionPadding">
       <Header text="Skills" textColor="white" />
       <div className="md:flex justify-evenly">
-        <div className="grid grid-cols-3 gap-2 md:w-5/12  flex-wrap justify-evenly lg:w-4/12">
+        <div className="flex flex-wrap justify-evenly xl:grid xl:grid-cols-3 xl:gap-2 md:w-5/12 lg:w-4/12">
           {[
             "Html",
             "Css",
@@ -25,8 +25,8 @@ export default function Skills() {
                 src={`/images/newskills/${skill}.png`}
                 alt={`${skill} icon`}
                 title={skill}
-                width="90%"
-                height="90%"
+                width="75%"
+                height="75%"
                 className="cursor-auto "
               />
             </div>
