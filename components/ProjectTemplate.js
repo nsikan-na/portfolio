@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 export default function ProjectTemplate({
   title,
@@ -8,6 +8,7 @@ export default function ProjectTemplate({
   demoLink,
   gif,
 }) {
+  const [playGif, setPlayGif] = useState(false);
   return (
     <div className="py-4 lg:flex lg:justify-evenly ">
       <div className="lg:w-4/12">
@@ -45,17 +46,41 @@ export default function ProjectTemplate({
           </a>
         </div>
       </div>
-      <div className="lg:w-5/12">
-        <div className="flex justify-center items-center mt-4  ">
-          <a href={demoLink} target="_blank">
+
+      <div className="lg:w-5/12 ">
+        <div className="flex justify-center items-center mt-4  w-full h-full ">
+          {playGif ? (
             <Image
               src={`/images/${gif}.gif`}
               width="640%"
-              height="350%"
+              height="360%"
               alt={title}
               className="rounded-lg cursor-pointer"
+              onClick={() => {
+                setPlayGif(false);
+              }}
             />
-          </a>
+          ) : (
+            <div
+              className="primaryProject rounded-lg cursor-pointer relative text-center"
+              onClick={() => {
+                setPlayGif(true);
+              }}
+            >
+              <div className="text-xl font-semibold centerProjectText ">
+                Click to Play/Pause Demo Gif
+              </div>
+              <div className="invisible">
+                <Image
+                  src={`/images/${gif}.gif`}
+                  width="640%"
+                  height="360%"
+                  alt={title}
+                  className="rounded-lg cursor-pointer "
+                />
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
