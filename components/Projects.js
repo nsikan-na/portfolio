@@ -31,18 +31,19 @@ export default function Projects() {
         title="Gwinnett Diner"
         skills={[
           "Tailwind css",
-          "React.js",
           "React Bootstrap",
+          "React.js",
           "Next.js",
           "Context Api",
+          "MongoDB"
         ]}
         desc={[
           `Responsive interface`,
-          `Turn a psd into a website`,
           `Manage state using React's context api`,
           `Validate user input`,
+          `Encrypt sensitive data`,
           `Store user data in database using nosql`,
-          `Work on a team complete website before deadline (I was a developer)`,
+          `Work on a team (I was a developer)`,
         ]}
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"

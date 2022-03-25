@@ -8,6 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  font-family: "Georgia", Times, serif;
+}
 .primaryButton {
   border: 1.75px solid var(--main-color);
 }
@@ -54,6 +57,9 @@ ul li::before {
   margin-left: -1em;
 }
 
-.projectLink:hover{
+.projectLink:hover {
+  text-decoration: underline;
+}
+.schoolLink:hover {
   text-decoration: underline;
 }
