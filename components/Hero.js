@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="p-2 flex justify-center items-center">
           <label
-            for="color"
+            htmlFor="color"
             className="primaryText hover:underline cursor-pointer text-lg"
           >
             Choose a color!
