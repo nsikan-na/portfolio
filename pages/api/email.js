@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         <h3>${email}</h3>
         <h4>${message}</h4>`,
       };
-      sgMail.send(msg);
+      await sgMail.send(msg);
       return res.json({ success: true });
     } catch (error) {
       console.log(error.message);
