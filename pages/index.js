@@ -7,7 +7,7 @@ import { Context } from "../context";
 import changeColor from "../util/changeColor";
 export default function index() {
   const { showChangeTheme } = useContext(Context);
-  changeColor("rgb(0, 209, 181)");
+  changeColor("red");
   return (
     <div>
       <Hero />
