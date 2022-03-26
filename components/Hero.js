@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import ColorModal from "./ChangeTheme";
 export default function Hero() {
+  const [colorChange, setColorChange] = useState(false);
   return (
     <div className="h-screen  justify-center items-center flex flex-col">
       <div className="sectionPadding">
@@ -21,6 +23,18 @@ export default function Hero() {
           </div>
         ))}
       </div>
+      {colorChange ? (
+        <ColorModal setColorChange={setColorChange} />
+      ) : (
+        <div
+          className="primaryText hover:underline cursor-pointer mt-2"
+          onClick={() => {
+            setColorChange(true);
+          }}
+        >
+          Click here to change theme colors!
+        </div>
+      )}
     </div>
   );
 }
