@@ -13,7 +13,7 @@ export default function Contact() {
               link: "https://www.linkedin.com/in/nsikan-na/",
             },
             { title: "github", link: "https://github.com/nsikan-na" },
-            // { title: "resume", link: "/images/Nsikan_Akpan_Resume.pdf" },
+            { title: "resume", link: "/images/Resume-Nsikan-Akpan.pdf" },
           ].map((links) => (
             <div key={links.title}>
               <a href={links.link} target="_blank">
