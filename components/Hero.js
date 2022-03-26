@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ColorModal from "./ChangeTheme";
+import changeColor from "../util/changeColor";
 export default function Hero() {
-  const [colorChange, setColorChange] = useState(false);
   return (
     <div className="h-screen  justify-center items-center flex flex-col">
       <div className="sectionPadding">
@@ -23,18 +23,23 @@ export default function Hero() {
           </div>
         ))}
       </div>
-      {colorChange ? (
-        <ColorModal setColorChange={setColorChange} />
-      ) : (
-        <div
-          className="primaryText hover:underline cursor-pointer mt-2"
-          onClick={() => {
-            setColorChange(true);
-          }}
+
+      <div className="p-2 flex justify-center items-center">
+        <label
+          for="color"
+          className="primaryText hover:underline cursor-pointer"
         >
-          Click here to change theme colors!
-        </div>
-      )}
+          Choose a color!
+        </label>
+        <input
+          type="color"
+          name="color"
+          id="color"
+          onChange={(e) => {
+            changeColor(e.target.value);
+          }}
+        />
+      </div>
     </div>
   );
 }

@@ -35,13 +35,13 @@ export default function Projects() {
           "React.js",
           "Next.js",
           "Context Api",
-          "MongoDB"
+          "MongoDB",
         ]}
         desc={[
           `Responsive interface`,
           `Manage state using React's context api`,
           `Validate user input`,
-          `Encrypt sensitive data`,
+          `Encrypt sensitive data using bcrypt`,
           `Store user data in database using nosql`,
           `Work on a team (I was a developer)`,
         ]}
