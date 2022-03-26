@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/globals.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Context } from "../context";
 function MyApp({ Component, pageProps }) {
-  const [showChangeTheme, setShowChangeTheme] = useState(true);
-  // setTimeout(() => {
-  //   setShowChangeTheme(true);
-  // },1000);
+  useEffect(() => {
+    AOS.init({
+      offset: 50,
+      duration: 1000,
+      once:true
+    });
+  }, []);
   return (
-    <Context.Provider value={{ showChangeTheme, setShowChangeTheme }}>
+    <Context.Provider value={{}}>
       <Component {...pageProps} />
     </Context.Provider>
   );

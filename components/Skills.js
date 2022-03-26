@@ -1,12 +1,16 @@
 import React from "react";
+
 import Image from "next/image";
 import Header from "./Header";
 export default function Skills() {
   return (
-    <div className="primaryBackground sectionPadding">
+    <div className="primaryBackground sectionPadding ">
       <Header text="Skills" textColor="white" />
-      <div className="md:flex justify-evenly">
-        <div className="flex flex-wrap justify-evenly xl:grid xl:grid-cols-3 xl:gap-2 md:w-5/12 lg:w-4/12">
+      <div className="md:flex justify-evenly ">
+        <div
+          className="flex flex-wrap justify-evenly xl:grid xl:grid-cols-3 xl:gap-2 md:w-5/12 lg:w-4/12"
+          data-aos="fade-down"
+        >
           {[
             "Html",
             "Css",
@@ -32,10 +36,11 @@ export default function Skills() {
             </div>
           ))}
         </div>
-        <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
+        <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl" data-aos='fade-down'>
           <p className="indent-12">
             I am software developer passionate about developing interactive,
-            user-friendly websites. I am currently building using the Jamstack/ MERN (MongoDB, Express.js, React.js, Node.js) stack, but I am
+            user-friendly websites. I am currently building using the Jamstack/
+            MERN (MongoDB, Express.js, React.js, Node.js) stack, but I am
             willing to learn any technology to get the job done.
           </p>
           <br />

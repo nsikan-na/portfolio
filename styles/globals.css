@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -12,8 +11,7 @@ body {
 
 .primaryProject {
   border: 1.75px solid var(--main-color);
-color:var(--main-color);
-
+  color: var(--main-color);
 }
 .primaryProject:hover {
   color: white;
@@ -79,3 +77,4 @@ ul li::before {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+

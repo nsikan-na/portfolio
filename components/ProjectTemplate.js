@@ -7,10 +7,11 @@ export default function ProjectTemplate({
   githubLink,
   demoLink,
   gif,
+  
 }) {
   const [playGif, setPlayGif] = useState(false);
   return (
-    <div className="py-4 lg:flex lg:justify-evenly ">
+    <div className="py-4 lg:flex lg:justify-evenly " data-aos="fade-down">
       <div className="lg:w-4/12">
         <a href={demoLink} target="_blank">
           <h4 className="text-2xl font-bold py-2 projectLink">{title}</h4>

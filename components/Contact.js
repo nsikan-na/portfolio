@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="primaryBackground sectionPadding ">
       <Header text="Contact Me" textColor="white" />
-      <form className="text-center">
+      <form className="text-center" data-aos="fade-down">
         <div className="flex justify-center -mt-5">
           {[
             {

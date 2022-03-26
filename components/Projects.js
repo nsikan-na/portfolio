@@ -8,6 +8,7 @@ export default function Projects() {
       <Header text="Projects" />
 
       <ProjectTemplate
+  
         title="Ramsey Investment Calulator"
         skills={[
           "Tailwind css",
