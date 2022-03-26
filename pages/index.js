@@ -5,11 +5,13 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import { Context } from "../context";
 import changeColor from "../util/changeColor";
+import Alert from "../components/Alert";
 export default function index() {
-  const { showChangeTheme } = useContext(Context);
-  changeColor("red");
+  const {} = useContext(Context);
+  changeColor("#AE00FF");
   return (
     <div>
+      <Alert />
       <Hero />
       <Skills />
       <Projects />
