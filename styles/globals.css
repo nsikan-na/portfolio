@@ -67,9 +67,6 @@ ul li::before {
 .projectLink:hover {
   text-decoration: underline;
 }
-.schoolLink:hover {
-  text-decoration: underline;
-}
 
 .centerProjectText {
   position: absolute;

@@ -52,7 +52,7 @@ export default function Skills() {
             <a
               href="https://gwinnetttech.edu/websitedesignanddevelopment/"
               target="_blank"
-              className="schoolLink"
+              className=" underline hover:text-gray-400"
             >
               Gwinnett Technical College
             </a>{" "}

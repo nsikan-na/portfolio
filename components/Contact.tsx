@@ -41,9 +41,8 @@ export default function Contact() {
       <form
         className="text-center"
         data-aos="fade-down"
-        onSubmit={(e: React.FormEvent) => {
+        onSubmit={(e) => {
           e.preventDefault();
-
           sendEmailHandler(e);
         }}
       >

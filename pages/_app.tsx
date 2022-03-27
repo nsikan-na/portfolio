@@ -4,8 +4,14 @@ import { AppProps } from "next/app";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Context } from "../context";
+import changeColor from "../util/changeColor";
+
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
+
+  useEffect(() => {
+    changeColor("#AE00FF");
+  }, []);
   useEffect(() => {
     //AOS is for the animation
     AOS.init({
