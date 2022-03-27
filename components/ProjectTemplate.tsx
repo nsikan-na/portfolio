@@ -8,6 +8,7 @@ const ProjectTemplate: React.FC<{
   demoLink: string;
   gif: string;
 }> = ({ title, skills, desc, githubLink, demoLink, gif }) => {
+  //reusable component for each project
   const [playGif, setPlayGif] = useState(false);
   return (
     <div className="py-4 lg:flex lg:justify-evenly " data-aos="fade-down">

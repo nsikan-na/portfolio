@@ -4,11 +4,16 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { Context } from "../context";
 import CircularProgress from "@mui/material/CircularProgress";
+
+
 export default function Contact() {
   const [spinner, setSpinner] = useState(false);
   const { setAlert }: any = useContext(Context);
   const router = useRouter();
+
+
   async function sendEmailHandler(e: any) {
+    //handle email form submission
     setSpinner(true);
     const response = await fetch("api/email", {
       method: "POST",

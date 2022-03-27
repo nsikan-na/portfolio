@@ -7,6 +7,7 @@ import { Context } from "../context";
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
   useEffect(() => {
+    //AOS is for the animation
     AOS.init({
       offset: 50,
       duration: 1000,

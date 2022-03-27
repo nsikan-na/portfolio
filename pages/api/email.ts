@@ -7,6 +7,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  //handles the contact form submission
   if (req.method === "POST") {
     try {
       const data = req.body;

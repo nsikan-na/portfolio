@@ -5,6 +5,7 @@ export default function Alert() {
   useEffect(() => {
     if (!alert.color) return;
     setTimeout(() => {
+      //alert disappears after 4.5 seconds
       setAlert({});
     }, 4500);
   }, [alert]);

@@ -2,7 +2,6 @@ import React from "react";
 
 import Image from "next/image";
 import Header from "./Header";
-import { JsxElement } from "typescript";
 export default function Skills() {
   return (
     <div className="primaryBackground sectionPadding ">
