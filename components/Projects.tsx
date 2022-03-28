@@ -32,12 +32,13 @@ export default function Projects() {
         title="Gwinnett Diner"
         skills={[
           "Tailwind css",
-          "React Bootstrap",
+          "Bootstrap",
           "Typescript",
           "React.js",
           "Next.js",
           "Context Api",
           "Bcrypt",
+          "NoSql",
           "MongoDB",
         ]}
         desc={[
