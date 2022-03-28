@@ -11,7 +11,13 @@ export default async function handler(
   if (req.method === "POST") {
     try {
       const data = req.body;
-      const { name, email, message } = JSON.parse(JSON.stringify(data));
+      const {
+        name,
+        email,
+        message,
+      }: { name: string; email: string; message: string } = JSON.parse(
+        JSON.stringify(data)
+      );
       if (!name || !email || !message) {
         return res.json({
           success: false,
@@ -29,7 +35,7 @@ export default async function handler(
       };
       await sgMail.send(msg);
       return res.json({ success: true });
-    } catch (err) {
+    } catch (err: any) {
       console.log(err);
     }
   }
