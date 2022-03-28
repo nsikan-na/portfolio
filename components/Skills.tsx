@@ -14,14 +14,15 @@ export default function Skills() {
           {[
             "Html",
             "Css",
-            "Javascript",
-            "React.js",
             "Bootstrap",
             "Tailwind.css",
-            "Sql",
-            "Git",
-            "Node.js",
+            "Javascript",
+            "Typescript",
+            "React.js",
             "Next.js",
+            "Node.js",
+            "Git",
+            "Sql",
             "MongoDB",
           ].map((skill: string) => (
             <div key={skill}>
@@ -43,8 +44,8 @@ export default function Skills() {
           <p className="indent-12">
             I am software developer passionate about developing interactive,
             user-friendly websites. I am currently building using the Jamstack/
-            MERN (MongoDB, Express.js, React.js, Node.js) stack, but I am
-            willing to learn any technology to get the job done.
+            MERN (MongoDB, Express.js, React.js, Node.js) stack with typescript,
+            but I am willing to learn any technology to get the job done.
           </p>
           <br />
           <p className="indent-12	">

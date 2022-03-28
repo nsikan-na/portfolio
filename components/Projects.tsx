@@ -11,11 +11,11 @@ export default function Projects() {
         title="Ramsey Investment Calculator"
         skills={[
           "Tailwind css",
+          "Typescript",
           "React js",
           "Next js",
           "Context Api",
           "Quick Chart Api",
-          
         ]}
         desc={[
           "Responsive interface",
@@ -33,9 +33,11 @@ export default function Projects() {
         skills={[
           "Tailwind css",
           "React Bootstrap",
+          "Typescript",
           "React.js",
           "Next.js",
           "Context Api",
+          "Bcrypt",
           "MongoDB",
         ]}
         desc={[
