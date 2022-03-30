@@ -43,9 +43,11 @@ export default function Skills() {
         >
           <p className="indent-12">
             I am software developer passionate about developing interactive,
-            user-friendly websites. I am currently building using the Jamstack/
-            MERN (MongoDB, Express.js, React.js, Node.js) stack with typescript,
-            but I am willing to learn any technology to get the job done.
+            user-friendly websites. I am proficient in Html, Css, Bootstrap,
+            Tailwind.css, Javascript, Typescript, React.js, Next.js, Node.js,
+            Git/GitHub, SQL, NoSQL, and MongoDB, but most importantly, I am
+            confident in my willingness to learn and adapt to what my team
+            needs.
           </p>
           <br />
           <p className="indent-12	">
