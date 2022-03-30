@@ -46,7 +46,7 @@ export default function Skills() {
             user-friendly websites. I am proficient in Html, Css, Bootstrap,
             Tailwind.css, Javascript, Typescript, React.js, Next.js, Node.js,
             Git/GitHub, SQL, NoSQL, and MongoDB, but most importantly, I am
-            confident in my willingness to learn and adapt to what my team
+            confident in my ability to learn and adapt to what my team
             needs.
           </p>
           <br />
