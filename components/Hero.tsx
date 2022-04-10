@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import changeColor from "../util/changeColor";
 export default function Hero() {
   return (
-    <div className="h-screen  justify-center items-center flex flex-col">
-      <div className="sectionPadding " data-aos="fade-down">
+    <div className="h-screen  justify-center items-center flex flex-col" data-aos="fade-down">
+      <div className="sectionPadding " >
         <h1 className="text-5xl font-bold py-2 text-center ">
           Hi, I'm <span className="primaryText ">Nsikan Akpan.</span>
         </h1>
@@ -11,7 +11,7 @@ export default function Hero() {
           I'm a web developer.
         </h2>
       </div>
-      <div data-aos="fade-down" data-aos-delay="400">
+      <div >
         <div className="flex flex-col md:flex-row">
           {["Skills", "Projects", "Contact Me"].map((txt: string) => (
             <div key={txt} className="inline">

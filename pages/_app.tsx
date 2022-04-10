@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
 
   useEffect(() => {
-    changeColor("#AE00FF");
+    changeColor("#00BFFF");
   }, []);
   useEffect(() => {
     //AOS is for the animation
