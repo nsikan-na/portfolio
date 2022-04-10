@@ -11,7 +11,7 @@ const ProjectTemplate: React.FC<{
   //reusable component for each project
   const [playGif, setPlayGif] = useState(false);
   return (
-    <div className="py-4 lg:flex lg:justify-evenly " data-aos="fade-down">
+    <div className="py-4 lg:flex lg:justify-evenly ">
       <div className="lg:w-4/12">
         <a href={demoLink} target="_blank">
           <h4 className="text-2xl font-bold py-2 projectLink">{title}</h4>

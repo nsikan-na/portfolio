@@ -6,7 +6,6 @@ const Header: React.FC<{ text: string; textColor?: string }> = ({
 }) => {
   return (
     <h3
-      data-aos="fade-down"
       className={`${
         textColor === "white" ? "text-white" : ""
       } text-4xl py-8 text-center font-bold`}

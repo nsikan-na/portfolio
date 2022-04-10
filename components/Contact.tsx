@@ -40,7 +40,7 @@ export default function Contact() {
       <Header text="Contact Me" textColor="white" />
       <form
         className="text-center"
-        data-aos="fade-down"
+
         onSubmit={(e) => {
           e.preventDefault();
           sendEmailHandler(e);

@@ -9,7 +9,7 @@ export default function Skills() {
       <div className="md:flex justify-evenly ">
         <div
           className="flex flex-wrap justify-evenly xl:grid xl:grid-cols-3 xl:gap-2 md:w-5/12 lg:w-4/12"
-          data-aos="fade-down"
+    
         >
           {[
             "Html",
@@ -39,7 +39,7 @@ export default function Skills() {
         </div>
         <div
           className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl"
-          data-aos="fade-down"
+         
         >
           <p className="indent-12">
             I am software developer passionate about developing interactive,
