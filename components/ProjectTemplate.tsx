@@ -47,40 +47,31 @@ const ProjectTemplate: React.FC<{
           </a>
         </div>
       </div>
-
       <div className="lg:w-5/12 ">
-        <div className="flex justify-center items-center mt-4  w-full h-full ">
+        <div className="text-center primaryText">{`Click Image to Play/Pause Demo Gif`}</div>
+        <div className="flex justify-center items-center  w-full h-full ">
           {playGif ? (
             <Image
               src={`/images/${gif}.gif`}
               width="640%"
               height="360%"
               alt={title}
-              className="rounded-lg cursor-pointer"
+              className="rounded-lg cursor-pointer projectImg"
               onClick={() => {
                 setPlayGif(false);
               }}
             />
           ) : (
-            <div
-              className="primaryProject rounded-lg cursor-pointer relative text-center"
+            <Image
+              src={`/images/${gif}.png`}
+              width="640%"
+              height="360%"
+              alt={title}
+              className="rounded-lg cursor-pointer projectImg "
               onClick={() => {
                 setPlayGif(true);
               }}
-            >
-              <div className="text-xl font-semibold centerProjectText ">
-                Click to Play/Pause Demo Gif
-              </div>
-              <div className="invisible">
-                <Image
-                  src={`/images/${gif}.gif`}
-                  width="640%"
-                  height="360%"
-                  alt={title}
-                  className="rounded-lg cursor-pointer "
-                />
-              </div>
-            </div>
+            />
           )}
         </div>
       </div>

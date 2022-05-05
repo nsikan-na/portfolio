@@ -75,3 +75,6 @@ ul li::before {
   transform: translate(-50%, -50%);
 }
 
+.projectImg{
+  border:10px solid var(--main-color);
+}
