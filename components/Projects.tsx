@@ -53,6 +53,29 @@ export default function Projects() {
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
       />
+      {/* <ProjectTemplate
+        title="CryptoTracker"
+        skills={[
+          "Next.js",
+          "Typescript",
+          "React.js",
+          "Tailwind.css",
+          "Context Api",
+          "NoSql",
+          "MongoDB",
+        ]}
+        desc={[
+          `Responsive interface`,
+          `Fetches most data from Coingecko Api`,
+          `Uses Quickchart.io for charting data`,
+          `Uses Auth0 for authentification`,
+          `Manage state using React's context api`,
+          `Store user data in NoSql database`,
+        ]}
+        githubLink="https://github.com/nsikan-na/CryptoCoins"
+        demoLink="https://top-crypto-coins.vercel.app/"
+        gif="diner"
+      /> */}
     </div>
   );
 }
