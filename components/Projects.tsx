@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="sectionPadding">
       <Header text="Projects" />
-      <div className="text-center primaryText cursor-pointer text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
+      <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
       <ProjectTemplate
         title="Ramsey Investment Calculator"
         skills={[
