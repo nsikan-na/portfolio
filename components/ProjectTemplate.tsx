@@ -48,7 +48,12 @@ const ProjectTemplate: React.FC<{
         </div>
       </div>
       <div className="lg:w-5/12 ">
-        <div className="text-center primaryText">{`Click Image to Play/Pause Demo Gif`}</div>
+        <div
+          className="text-center primaryText cursor-pointer"
+          onClick={() => {
+            setPlayGif(!playGif);
+          }}
+        >{`Click Image to Play/Pause Demo Gif`}</div>
         <div className="flex justify-center items-center  w-full h-full ">
           {playGif ? (
             <Image
