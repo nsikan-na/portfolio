@@ -8,6 +8,29 @@ export default function Projects() {
       <Header text="Projects" />
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
       <ProjectTemplate
+        title="CryptoTracker"
+        skills={[
+          "Next.js",
+          "Typescript",
+          "React.js",
+          "Tailwind.css",
+          "Context Api",
+          "NoSql",
+          "MongoDB",
+        ]}
+        desc={[
+          `Responsive interface`,
+          `Fetches most data from Coingecko Api`,
+          `Uses Quickchart.io for charting data`,
+          `Uses Auth0 for authentication`,
+          `Manage state using React's context api`,
+          `Store user data in NoSql database`,
+        ]}
+        githubLink="https://github.com/nsikan-na/CryptoTracker"
+        demoLink="https://cryptocoins-tracker.vercel.app/"
+        gif="crypto"
+      />
+      <ProjectTemplate
         title="Ramsey Investment Calculator"
         skills={[
           "Tailwind css",
@@ -52,29 +75,6 @@ export default function Projects() {
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
-      />
-      <ProjectTemplate
-        title="CryptoTracker"
-        skills={[
-          "Next.js",
-          "Typescript",
-          "React.js",
-          "Tailwind.css",
-          "Context Api",
-          "NoSql",
-          "MongoDB",
-        ]}
-        desc={[
-          `Responsive interface`,
-          `Fetches most data from Coingecko Api`,
-          `Uses Quickchart.io for charting data`,
-          `Uses Auth0 for authentication`,
-          `Manage state using React's context api`,
-          `Store user data in NoSql database`,
-        ]}
-        githubLink="https://github.com/nsikan-na/CryptoTracker"
-        demoLink="https://cryptocoins-tracker.vercel.app/"
-        gif="crypto"
       />
     </div>
   );
