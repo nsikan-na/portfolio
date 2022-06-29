@@ -49,7 +49,7 @@ export default function Projects() {
           "Typescript",
           "React js",
           "Next js",
-          "Quick Chart Api",
+          "QuickChart.io Api",
         ]}
         desc={` The application is used to calculate the amount of money the user would have based off of validated input they enter. It uses the QuickChart.io for charting data. This is a clone of the Ramsey Solution calculator.`}
         githubLink="https://github.com/nsikan-na/investment_calulator"
