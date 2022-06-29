@@ -3,7 +3,7 @@ import Image from "next/image";
 const ProjectTemplate: React.FC<{
   title: string;
   skills: string[];
-  desc: string[];
+  desc: string;
   githubLink: string;
   demoLink: string;
   gif: string;
@@ -27,13 +27,9 @@ const ProjectTemplate: React.FC<{
             </button>
           ))}
         </div>
-        <ul>
-          {desc.map((item: string) => (
-            <li className="font-semibold text-xl " key={item}>
-              {item}
-            </li>
-          ))}
-        </ul>
+        <div className="font-semibold text-xl ">
+          {desc}
+        </div>
         <div className="py-2 flex">
           <a href={demoLink} target="_blank">
             <button className=" px-1 primaryText primaryButton font-bold rounded-md text-xl">

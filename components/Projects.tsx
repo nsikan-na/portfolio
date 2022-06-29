@@ -15,20 +15,11 @@ export default function Projects() {
           "Typescript",
           "React.js",
           "Next.js",
-          "Context Api",
           "Bcrypt",
           "NoSql",
           "MongoDB",
         ]}
-        desc={[
-          `Responsive interface`,
-          `Manage state using React's context api`,
-          `Validate user input`,
-          `Encrypt sensitive data using bcrypt`,
-          `Capstone Project for my Associate Degree`,
-          `Store user data in database using NoSql`,
-          `Work on a team of 8 (I was a developer)`,
-        ]}
+        desc={`This is an e-commerce site for a restaurant called Gwinnett Diner that has something for everyone. This was the capstone project for my Associates Degrees. I was a developer on a team of 8 students, 3 designers, 3 developers, and 2 testers.`}
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
@@ -40,18 +31,13 @@ export default function Projects() {
           "Typescript",
           "React.js",
           "Tailwind.css",
-          "Context Api",
           "NoSql",
           "MongoDB",
+          "QuickChart.io Api",
+          "Auth0 Api",
+          "Coingecko Api",
         ]}
-        desc={[
-          `Responsive interface`,
-          `Fetches most data from Coingecko Api`,
-          `Uses Quickchart.io for charting data`,
-          `Uses Auth0 for authentication`,
-          `Manage state using React's context api`,
-          `Store user data in NoSql database`,
-        ]}
+        desc={`This is an application for quickly getting information on a top 50 crypto coins. The data comes from the Coingecko api and uses Quickchart.io api for charting data. Lastly, the application uses Auth0 for authentication.`}
         githubLink="https://github.com/nsikan-na/CryptoTracker"
         demoLink="https://cryptocoins-tracker.vercel.app/"
         gif="crypto"
@@ -63,16 +49,9 @@ export default function Projects() {
           "Typescript",
           "React js",
           "Next js",
-          "Context Api",
           "Quick Chart Api",
         ]}
-        desc={[
-          "Responsive interface",
-          "Turn a psd into a website",
-          `Manage state using React's context api`,
-          "Validate user input",
-          "Consume charting api (QuickChart.io) asynchronously based off user input.",
-        ]}
+        desc={` The application is used to calculate the amount of money the user would have based off of validated input they enter. It uses the QuickChart.io for charting data. This is a clone of the Ramsey Solution calculator.`}
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
         gif="investment"
