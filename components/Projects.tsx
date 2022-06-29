@@ -19,11 +19,14 @@ export default function Projects() {
           "NoSql",
           "MongoDB",
         ]}
-        desc={`This is an e-commerce site for a restaurant called Gwinnett Diner that has something for everyone. This was the capstone project for my Associates Degrees. I was a developer on a team of 8 students, 3 designers, 3 developers, and 2 testers.`}
+        desc={`This was the capstone project of my associate's degree at Gwinnett Technical College. It is an eCommerce
+        site for a fictitious restaurant name Gwinnett Diner. I worked with 8 other students to get the application done.
+        I was a developer alongside 2 other students. Other titles included testers and designers. The project was
+        made up of 4 sprints. We met regularly to share how our portion of the application was developing.`}
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
-      />{" "}
+      />
       <ProjectTemplate
         title="CryptoTracker"
         skills={[
@@ -37,7 +40,9 @@ export default function Projects() {
           "Auth0 Api",
           "Coingecko Api",
         ]}
-        desc={`This is an application for quickly getting information on a top 50 crypto coins. The data comes from the Coingecko api and uses Quickchart.io api for charting data. Lastly, the application uses Auth0 for authentication.`}
+        desc={`This is an application that takes data from the Coingecko API and uses the QuickChart.io API to display a dynamic
+        graph that changes as the data changes. It also includes many common features so brings the app to the next
+        level.`}
         githubLink="https://github.com/nsikan-na/CryptoTracker"
         demoLink="https://cryptocoins-tracker.vercel.app/"
         gif="crypto"
@@ -51,7 +56,8 @@ export default function Projects() {
           "Next js",
           "QuickChart.io Api",
         ]}
-        desc={` The application is used to calculate the amount of money the user would have based off of validated input they enter. It uses the QuickChart.io for charting data. This is a clone of the Ramsey Solution calculator.`}
+        desc={`This is an application that calculates the estimated retirement savings of an individual based on user input. A chart
+        is also generated dynamically using the QuickChart.io API to demonstrate when the user becomes a millionaire.`}
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
         gif="investment"
