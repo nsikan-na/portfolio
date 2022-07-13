@@ -74,7 +74,7 @@ export default function Contact() {
           name="name"
           placeholder="Name"
           type="text"
-          className="input md:w-6/12 xl:w-4/12"
+          className="input  text-xl md:w-6/12 xl:w-4/12"
         />
         <br />
         <input
