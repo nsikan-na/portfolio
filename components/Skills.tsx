@@ -6,21 +6,15 @@ export default function Skills() {
   return (
     <div className="primaryBackground sectionPadding ">
       <Header text="Skills" textColor="white" />
-      <div className="md:flex justify-evenly ">
-        <div className="flex flex-wrap justify-evenly xl:grid xl:grid-cols-3 xl:gap-2 md:w-5/12 lg:w-4/12">
+      <div className="md:flex justify-evenly items-center">
+        <div className="flex flex-wrap justify-evenly md:w-5/12 lg:w-4/12">
           {[
             "Html",
             "Css",
-            "Bootstrap",
-            "Tailwind.css",
             "Javascript",
-            "Typescript",
             "React.js",
             "Next.js",
-            "Node.js",
             "Git",
-            "Sql",
-            "MongoDB",
           ].map((skill: string) => (
             <div key={skill}>
               <Image
@@ -36,10 +30,9 @@ export default function Skills() {
         </div>
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p className="indent-12">
-            I am software developer passionate about developing interactive,
-            user-friendly websites. I am proficient in Html, Css, Bootstrap,
-            Tailwind.css, Javascript, Typescript, React.js, Next.js, Node.js,
-            Git/GitHub, SQL, NoSQL, and MongoDB, but most importantly, I am
+            I am software developer focusing on front-end development. Tools I
+            commonly use include Html, Css, Bootstrap, Tailwind.css, Javascript,
+            React.js, Next.js, and Git/GitHub but most importantly, I am
             confident in my ability to learn and adapt to what my team needs.
           </p>
           <br />
@@ -51,7 +44,8 @@ export default function Skills() {
               className=" underline hover:text-gray-300"
             >
               {`Web Design and Development`}
-            </a>{`.`}
+            </a>
+            {`.`}
           </p>
         </div>
       </div>
