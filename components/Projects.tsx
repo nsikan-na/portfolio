@@ -4,9 +4,21 @@ import Header from "./Header";
 
 export default function Projects() {
   return (
-    <div className="sectionPadding">
+    <div
+      className="sectionPadding"
+      style={{ paddingTop: "5rem", paddingBottom: "8rem" }}
+    >
       <Header text="Projects" />
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
+      <ProjectTemplate
+        title="Charlie Glass"
+        skills={["Material Ui", "React.js", "Next.js", "Typescript"]}
+        desc={`This is a business website I made for a company name Charlie Glass.`}
+        githubLink="https://github.com/nsikan-na/charlie_glass"
+        demoLink="https://charlie-glass.vercel.app/"
+        gif="charlie"
+        gifNotReady={true}
+      />
       <ProjectTemplate
         title="Gwinnett Diner"
         skills={[
@@ -16,6 +28,7 @@ export default function Projects() {
           "Next.js",
           "NoSql",
           "MongoDB",
+          "Typescript",
         ]}
         desc={`This was the capstone project of my associate's degree at Gwinnett Technical College. It is an eCommerce
         site for a fictitious restaurant name Gwinnett Diner. I worked on a team of 8 students as a developer to complete this project. The project was
@@ -32,6 +45,7 @@ export default function Projects() {
           "Tailwind.css",
           "NoSql",
           "MongoDB",
+          "Typescript",
         ]}
         desc={`This is an application that takes displays useful information about the top crypto coins. It also includes many common features that add to the user experience.`}
         githubLink="https://github.com/nsikan-na/CryptoTracker"
@@ -40,11 +54,7 @@ export default function Projects() {
       />
       <ProjectTemplate
         title="Ramsey Investment Calculator"
-        skills={[
-          "Tailwind css",
-          "React js",
-          "Next js",
-        ]}
+        skills={["Tailwind css", "React js", "Next js", "Typescript"]}
         desc={`This is an application that calculates the estimated retirement savings of an individual based on user input. A chart
         is also generated to demonstrate when the user becomes a millionaire.`}
         githubLink="https://github.com/nsikan-na/investment_calulator"

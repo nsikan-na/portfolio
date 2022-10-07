@@ -36,11 +36,13 @@ export default function Contact() {
     router.replace("/");
   }
   return (
-    <div className="primaryBackground sectionPadding ">
+    <div
+      className="primaryBackground sectionPadding "
+      style={{ paddingTop: "4rem", paddingBottom: "8rem" }}
+    >
       <Header text="Contact Me" textColor="white" />
       <form
         className="text-center"
-
         onSubmit={(e) => {
           e.preventDefault();
           sendEmailHandler(e);
@@ -52,7 +54,7 @@ export default function Contact() {
             //   title: "linkedin",
             //   link: "https://www.linkedin.com/in/nsikan-na/",
             // },
-            { title: "github", link: "https://github.com/nsikan-na" },
+            // { title: "github", link: "https://github.com/nsikan-na" },
             // { title: "resume", link: "/images/Resume-Nsikan-Akpan.pdf" },
           ].map((links: { title: string; link: string }) => (
             <div key={links.title}>
@@ -69,7 +71,7 @@ export default function Contact() {
             </div>
           ))}
         </div>
-        <p className="text-white text-xl">nsikan.na@gmail.com</p>
+        <p className="text-white text-xl">@ nsikan.na@gmail.com</p>
         <input
           name="name"
           placeholder="Name"

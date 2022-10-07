@@ -7,7 +7,8 @@ const ProjectTemplate: React.FC<{
   githubLink: string;
   demoLink: string;
   gif: string;
-}> = ({ title, skills, desc, githubLink, demoLink, gif }) => {
+  gifNotReady?: boolean;
+}> = ({ title, skills, desc, githubLink, demoLink, gif, gifNotReady }) => {
   //reusable component for each project
   const [playGif, setPlayGif] = useState(false);
   return (
@@ -27,9 +28,7 @@ const ProjectTemplate: React.FC<{
             </button>
           ))}
         </div>
-        <div className="font-semibold text-xl ">
-          {desc}
-        </div>
+        <div className="font-semibold text-xl ">{desc}</div>
         <div className="py-2 flex">
           <a href={demoLink} target="_blank">
             <button className=" px-1 primaryText primaryButton font-bold rounded-md text-xl">
@@ -46,7 +45,7 @@ const ProjectTemplate: React.FC<{
       <div className="lg:w-5/12 ">
         
         <div className="flex justify-center items-center  w-full h-full ">
-          {playGif ? (
+          {playGif && !gifNotReady ? (
             <Image
               src={`/images/${gif}.gif`}
               width="640%"
