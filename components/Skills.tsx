@@ -41,15 +41,7 @@ export default function Skills() {
           </p>
           <br />
           <p className="indent-12	">
-            {`I graduated from Gwinnett Technical College with an associates degree in `}
-            <a
-              href="https://gwinnetttech.edu/websitedesignanddevelopment/"
-              target="_blank"
-              className=" underline hover:text-gray-300"
-            >
-              {`Web Design and Development`}
-            </a>
-            {`.`}
+            {`I graduated from Gwinnett Technical College with an associates degree in Web Design and Development.`}
           </p>
         </div>
       </div>
