@@ -25,8 +25,8 @@ export default async function handler(
         });
       }
       const msg = {
-        to: "nsikan.na@gmail.com",
-        from: "nsikan.na@gmail.com",
+        to: process.env.SEND_TO_EMAIL,
+        from: process.env.SEND_FROM_EMAIL,
         subject: "Message from Portfolio Site",
         html: `
         <h1>From ${name},</h1>
