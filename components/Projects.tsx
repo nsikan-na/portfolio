@@ -11,12 +11,27 @@ export default function Projects() {
       <Header text="Projects" />
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
       <ProjectTemplate
+        title="CryptoTracker"
+        skills={[
+          "Next.js",
+          "React.js",
+          "Tailwind.css",
+          "NoSql",
+          "MongoDB",
+          "Typescript",
+        ]}
+        desc={`This is an application that takes displays useful information about the top crypto coins. It also includes many common features that add to the user experience.`}
+        githubLink="https://github.com/nsikan-na/CryptoTracker"
+        demoLink="https://cryptocoins-tracker.vercel.app/"
+        gif="crypto"
+      />
+      <ProjectTemplate
         title="Charlie Glass"
         skills={["Material Ui", "React.js", "Next.js", "Typescript"]}
         desc={`This is a business website I made for a company name Charlie Glass.`}
         githubLink="https://github.com/nsikan-na/charlie_glass"
         demoLink="https://charlie-glass.vercel.app/"
-        gif="charlie"
+        gif="charlie1"
         gifNotReady={true}
       />
       <ProjectTemplate
@@ -38,25 +53,10 @@ export default function Projects() {
         gif="diner"
       />
       <ProjectTemplate
-        title="CryptoTracker"
-        skills={[
-          "Next.js",
-          "React.js",
-          "Tailwind.css",
-          "NoSql",
-          "MongoDB",
-          "Typescript",
-        ]}
-        desc={`This is an application that takes displays useful information about the top crypto coins. It also includes many common features that add to the user experience.`}
-        githubLink="https://github.com/nsikan-na/CryptoTracker"
-        demoLink="https://cryptocoins-tracker.vercel.app/"
-        gif="crypto"
-      />
-      <ProjectTemplate
         title="Ramsey Investment Calculator"
         skills={["Tailwind css", "React js", "Next js", "Typescript"]}
         desc={`This is an application that calculates the estimated retirement savings of an individual based on user input. A chart
-        is also generated to demonstrate when the user becomes a millionaire.`}
+    is also generated to demonstrate when the user becomes a millionaire.`}
         githubLink="https://github.com/nsikan-na/investment_calulator"
         demoLink="https://ramsey-investment-calculator.vercel.app/"
         gif="investment"
