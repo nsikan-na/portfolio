@@ -31,8 +31,7 @@ export default function Projects() {
         desc={`This is a business website I made for a company name Charlie Glass.`}
         githubLink="https://github.com/nsikan-na/charlie_glass"
         demoLink="https://charlie-glass.vercel.app/"
-        gif="charlie1"
-        gifNotReady={true}
+        gif="charlie"
       />
       <ProjectTemplate
         title="Gwinnett Diner"
