@@ -10,12 +10,12 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
   const themeColor: string[] = [
     //array of colors
-    "#00CCFF",
     "#FF0000",
     "green",
     "#FF00D0",
     "#AE00FF",
     "#0033FF",
+    "#0073ff",
     "#FF8800",
   ];
   useEffect(() => {
