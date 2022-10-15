@@ -4,7 +4,7 @@ const ProjectTemplate: React.FC<{
   title: string;
   skills: string[];
   desc: string;
-  githubLink: string;
+  githubLink?: string;
   demoLink: string;
   gif: string;
   gifNotReady?: boolean;
@@ -35,15 +35,18 @@ const ProjectTemplate: React.FC<{
               Visit Site
             </button>
           </a>
-          <a href={githubLink} target="_blank">
-            <button className="px-1 ml-2 primaryText primaryButton font-bold rounded-md text-xl">
-              View Code
-            </button>
-          </a>
+          {githubLink ? (
+            <a href={githubLink} target="_blank">
+              <button className="px-1 ml-2 primaryText primaryButton font-bold rounded-md text-xl">
+                View Code
+              </button>
+            </a>
+          ) : (
+            ""
+          )}
         </div>
       </div>
       <div className="lg:w-5/12 ">
-        
         <div className="flex justify-center items-center  w-full h-full ">
           {playGif && !gifNotReady ? (
             <Image

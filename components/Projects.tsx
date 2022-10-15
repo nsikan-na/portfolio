@@ -29,8 +29,7 @@ export default function Projects() {
         title="Charlie Glass"
         skills={["Material Ui", "React.js", "Next.js", "Typescript"]}
         desc={`This is a business website I made for a company name Charlie Glass.`}
-        githubLink="https://github.com/nsikan-na/charlie_glass"
-        demoLink="https://charlie-glass.vercel.app/"
+        demoLink="https://charlieglassinc.com/"
         gif="charlie"
       />
       <ProjectTemplate
