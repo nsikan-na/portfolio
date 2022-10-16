@@ -14,7 +14,7 @@ export default function index() {
       <Hero />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

@@ -49,13 +49,13 @@ export default function Contact() {
         }}
       >
         <div className="flex justify-center -mt-5">
-          {[
-            // {
-            //   title: "linkedin",
-            //   link: "https://www.linkedin.com/in/nsikan-na/",
-            // },
-            // { title: "github", link: "https://github.com/nsikan-na" },
-            // { title: "resume", link: "/images/Resume-Nsikan-Akpan.pdf" },
+          {/* {[
+            {
+              title: "linkedin",
+              link: "https://www.linkedin.com/in/nsikan-na/",
+            },
+            { title: "github", link: "https://github.com/nsikan-na" },
+            { title: "resume", link: "/images/Resume-Nsikan-Akpan.pdf" },
           ].map((links: { title: string; link: string }) => (
             <div key={links.title}>
               <a href={links.link} target="_blank">
@@ -69,7 +69,7 @@ export default function Contact() {
                 />
               </a>
             </div>
-          ))}
+          ))} */}
         </div>
         <p className="text-white text-xl">@ nsikan.na@gmail.com</p>
         <input

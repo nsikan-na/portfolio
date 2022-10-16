@@ -27,11 +27,16 @@ export default async function handler(
       const msg = {
         to: process.env.SEND_TO_EMAIL,
         from: process.env.SEND_FROM_EMAIL,
-        subject: "Message from Portfolio Site",
+        subject: "Message from Nsikan's Portfolio Site",
         html: `
-        <h1>From ${name},</h1>
-        <h3>${email}</h3>
-        <h4>${message}</h4>`,
+        <h1>From ${name},</h1>    
+        <h2>Message</h2>
+        <p>${message}</p>
+        <div style='display:flex;'>
+        <h4>Email: </h4>
+        <h5 style='margin-left:1rem'>${email}<h5>
+        </div>
+    `,
       };
       await sgMail.send(msg);
       return res.json({ success: true });
