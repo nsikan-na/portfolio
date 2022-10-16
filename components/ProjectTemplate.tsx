@@ -20,7 +20,7 @@ const ProjectTemplate: React.FC<{
         <div className="py-2 ">
           {skills.map((skill: string) => (
             <button
-              className="px-1 py-1 rounded-xl bg-gray-400 mr-1 mt-1 font-bold text-gray-50 cursor-text text-sm"
+              className="px-1 py-1 rounded-xl bg-gray-500 mr-1 mt-1 font-bold text-gray-50 cursor-text text-sm"
               style={{ border: "1px solid black" }}
               key={skill}
             >
