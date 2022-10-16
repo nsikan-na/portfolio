@@ -31,6 +31,15 @@ export default function Projects() {
         desc={`This is a business website I made for a company name Charlie Glass.`}
         demoLink="https://charlieglassinc.com/"
         gif="charlie"
+      />{" "}
+      <ProjectTemplate
+        title="Ramsey Investment Calculator"
+        skills={["Tailwind css", "React js", "Next js", "Typescript"]}
+        desc={`This is an application that calculates the estimated retirement savings of an individual based on user input. A chart
+  is also generated to demonstrate when the user becomes a millionaire.`}
+        githubLink="https://github.com/nsikan-na/investment_calulator"
+        demoLink="https://ramsey-investment-calculator.vercel.app/"
+        gif="investment"
       />
       <ProjectTemplate
         title="Gwinnett Diner"
@@ -49,15 +58,6 @@ export default function Projects() {
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
-      />
-      <ProjectTemplate
-        title="Ramsey Investment Calculator"
-        skills={["Tailwind css", "React js", "Next js", "Typescript"]}
-        desc={`This is an application that calculates the estimated retirement savings of an individual based on user input. A chart
-    is also generated to demonstrate when the user becomes a millionaire.`}
-        githubLink="https://github.com/nsikan-na/investment_calulator"
-        demoLink="https://ramsey-investment-calculator.vercel.app/"
-        gif="investment"
       />
     </div>
   );
