@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Context } from "../context";
 import changeColor from "../util/changeColor";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
@@ -32,6 +33,17 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   }, []);
   return (
     <Context.Provider value={{ alert, setAlert }}>
+      <Head>
+        <title>Nsikan Akpan Portfolio</title>
+        <meta name="description" content="Nsikan Akpan Portfolio" key="desc" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Nsikan Akpan Portfolio" />
+        <meta property="og:description" content="Nsikan Akpan Portfolio" />
+        <meta name="robots" content="all" />
+        <meta name="googlebot" content="noindex,nofollow" />
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" />
+      </Head>
       <Component {...pageProps} />
     </Context.Provider>
   );
