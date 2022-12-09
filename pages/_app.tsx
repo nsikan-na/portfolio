@@ -43,6 +43,9 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <meta name="googlebot" content="noindex,nofollow" />
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta name="google" content="notranslate" key="notranslate" />
+        <meta property="og:image" content="/images/logo.png" />
+        <link rel="icon" href="/images/logo.png" />
+        <meta name="author" content="Nsikan Akpan" />
       </Head>
       <Component {...pageProps} />
     </Context.Provider>
