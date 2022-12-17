@@ -34,10 +34,11 @@ export default function Skills() {
         </div>
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p className="indent-12">
-            I am software developer focusing on front-end development. Tools I
-            commonly use include React.js with Typescript and Git but most
-            importantly, I am confident in my ability to learn and adapt to what
-            my team needs.
+            I am a software developer focusing on front-end development. Tools I
+            commonly use include Html, CSS(Bootstrap, Material UI,
+            Tailwind.css, Ant Design), Javascript, React.js, Typescript,
+            Next.js, Redux, and Git but most importantly, I am confident in my
+            ability to learn and adapt to what my team needs.
           </p>
           <br />
           <p className="indent-12	">
