@@ -36,7 +36,7 @@ export default function Skills() {
           <p className="indent-12">
             I am a software developer focusing on front-end development. Tools I
             commonly use include Html, CSS(Bootstrap, Material UI,
-            Tailwind.css, Ant Design), Javascript, React.js, Typescript,
+            Tailwind.css, Ant Design, Styled Components), Javascript, React.js, Typescript,
             Next.js, Redux, and Git but most importantly, I am confident in my
             ability to learn and adapt to what my team needs.
           </p>
