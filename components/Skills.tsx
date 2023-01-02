@@ -35,14 +35,14 @@ export default function Skills() {
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p className="indent-12">
             I am a software developer focusing on front-end development. Tools I
-            commonly use include Html, CSS(Bootstrap, Material UI,
-            Tailwind.css, Ant Design, Styled Components), Javascript, React.js, Typescript,
-            Next.js, Redux, and Git but most importantly, I am confident in my
-            ability to learn and adapt to what my team needs.
+            commonly use include Html, CSS (Bootstrap, Material UI,
+            Tailwind.css, Ant Design, Styled Components), Javascript, React.js,
+            Typescript, Next.js, Redux, and Git but most importantly, I am
+            confident in my ability to learn and adapt to what my team needs.
           </p>
           <br />
           <p className="indent-12	">
-            {`I graduated from Gwinnett Technical College with an associates degree in Web Design and Development.`}
+            {`I graduated with an associates degree in Web Design and Development.`}
           </p>
         </div>
       </div>
