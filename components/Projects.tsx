@@ -59,6 +59,15 @@ export default function Projects() {
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
       />
+      <ProjectTemplate
+        title="SMV Calculator (Under Construction)"
+        skills={["React js", "Typescript"]}
+        desc={`The application is used to calculates your sexual market value as a man.`}
+        githubLink="https://github.com/nsikan-na/smvCalc"
+        demoLink="https://smv-calc.vercel.app/"
+        gif="smv"
+        gifNotReady={true}
+      />
     </div>
   );
 }
