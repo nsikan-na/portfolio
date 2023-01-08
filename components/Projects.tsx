@@ -31,7 +31,7 @@ export default function Projects() {
         desc={`This is a business website I made for a company name Charlie Glass.`}
         demoLink="https://charlieglassinc.com/"
         gif="charlie"
-      />{" "}
+      />
       <ProjectTemplate
         title="Ramsey Investment Calculator"
         skills={["Tailwind css", "React js", "Next js", "Typescript"]}
