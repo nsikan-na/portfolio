@@ -11,7 +11,7 @@ export default function Hero() {
           Hi, I'm <span className="primaryText ">Nsikan Akpan.</span>
         </h1>
         <h2 className="text-4xl font-bold py-2 text-center ">
-          I'm a web developer
+          I'm a software developer
           <a
             href="https://smv-calc.vercel.app/"
             target="_blank"
