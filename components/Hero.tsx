@@ -15,7 +15,7 @@ export default function Hero() {
           <a
             href="https://smv-calc.vercel.app/"
             target="_blank"
-            style={{ cursor: "default" }}
+            style={{ cursor: "text" }}
           >
             .
           </a>
