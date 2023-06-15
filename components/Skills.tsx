@@ -42,7 +42,7 @@ export default function Skills() {
           </p>
           <br />
           <p className="indent-12	">
-            {`I have an A.A.S. in Web Design and Development. I will graduate with a B.S. in Computer Science in 2026.`}
+            {`I have an A.A.S. in Web Design and Development and will graduate with a B.S. in Computer Science in 2026.`}
           </p>
         </div>
       </div>
