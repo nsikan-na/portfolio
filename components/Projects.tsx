@@ -33,6 +33,7 @@ export default function Projects() {
         `}
         demoLink="https://charlieglassinc.com/"
         gif="charlie"
+        gifNotReady
       />
       <ProjectTemplate
         title="Ramsey Investment Calculator"
