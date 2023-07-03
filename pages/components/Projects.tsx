@@ -13,7 +13,7 @@ export default function Projects() {
       <ProjectTemplate
         title="Charlie Glass"
         skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
-        desc={`A website for a company named Charlie Glass.
+        desc={`A website I contributed to for a company named Charlie Glass.
         `}
         demoLink="https://charlieglassinc.com/"
         gif="charlie"
