@@ -18,7 +18,7 @@ const ProjectTemplate: React.FC<{
           <h4 className="text-2xl font-bold py-2 projectLink">{title}</h4>
         </a>
         <div className="py-2 ">
-          {skills.map((skill: string) => (
+          {skills?.map((skill: string) => (
             <button
               className="px-1 py-1 rounded-xl bg-gray-400 mr-1 mt-1 font-bold text-gray-50 cursor-text text-sm"
               style={{ border: "1px solid black" }}

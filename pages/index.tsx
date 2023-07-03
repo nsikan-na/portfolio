@@ -12,7 +12,7 @@ export default function index() {
     <div>
       <Alert />
       <Hero />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
       {/* <Contact /> */}
     </div>
