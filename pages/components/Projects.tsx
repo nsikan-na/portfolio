@@ -12,22 +12,23 @@ export default function Projects() {
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
       <ProjectTemplate
         title="Charlie Glass"
-        skills={["Material Ui", "React.js", "Next.js", "Typescript"]}
-        desc={`A website for a company named Charlie Glass.
+        skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
+        desc={`A website I contributed to for a company named Charlie Glass.
         `}
         demoLink="https://charlieglassinc.com/"
         gif="charlie"
         gifNotReady
       />
+
       <ProjectTemplate
         title="CryptoTracker"
         skills={[
-          "Next.js",
+          "Typescript",
           "React.js",
+          "Next.js",
           "Tailwind.css",
           "NoSql",
           "MongoDB",
-          "Typescript",
         ]}
         desc={` Displays useful information about the top crypto coins.
         `}
@@ -37,7 +38,7 @@ export default function Projects() {
       />
       <ProjectTemplate
         title="Ramsey Investment Calculator"
-        skills={["Tailwind css", "React js", "Next js", "Typescript"]}
+        skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
         desc={`Calculates the estimated retirement savings of an individual based on user input. A chart is also generated to demonstrate when the user becomes a millionaire.
         `}
         githubLink="https://github.com/nsikan-na/investment_calulator"
@@ -47,13 +48,13 @@ export default function Projects() {
       <ProjectTemplate
         title="Gwinnett Diner"
         skills={[
-          "Tailwind css",
-          "Bootstrap",
+          "Typescript",
           "React.js",
           "Next.js",
+          "Tailwind.css",
+          "Bootstrap",
           "NoSql",
           "MongoDB",
-          "Typescript",
         ]}
         desc={`An eCommerce site for a fictitious restaurant named Gwinnett Diner. I worked on a team of 8 students as a developer to complete this project. The project was made up of 4 sprints, so we met regularly to share how our portion of the application was developing. The capstone project of my associate degree at Gwinnett Technical College.`}
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
