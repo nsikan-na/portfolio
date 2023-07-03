@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import Header from "./Header";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { Context } from "../context";
+import { Context } from "../../context";
 import CircularProgress from "@mui/material/CircularProgress";
 
 

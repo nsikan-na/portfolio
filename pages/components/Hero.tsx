@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import changeColor from "../util/changeColor";
+import changeColor from "../../util/changeColor";
 export default function Hero() {
   return (
     <div
