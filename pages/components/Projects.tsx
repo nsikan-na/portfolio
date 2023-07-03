@@ -19,6 +19,7 @@ export default function Projects() {
         gif="charlie"
         gifNotReady
       />
+
       <ProjectTemplate
         title="CryptoTracker"
         skills={[
