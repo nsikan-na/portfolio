@@ -36,13 +36,14 @@ export default function Skills() {
           <p className="indent-12">
             I am a software developer focusing on web development. Technologies
             I use include Html, Css, Javascript, Typescript, React, Redux,
-            Node.js, Docker, Git, Java, Sql, NoSql, Photoshop, and various Css
-            Frameworks/libraries. Most importantly, I am confident
-            in my ability to learn and adapt to the needs of my team.
+            Node.js, Next.js, Docker, Git, Java, Sql, NoSql, MongoDB, Postgres,
+            Photoshop, Tailwind.css, and various Css Frameworks. Most
+            importantly, I am confident in my ability to learn and adapt to the
+            needs of my team.
           </p>
           <br />
           <p className="indent-12	">
-            {`I have an A.A.S. in Web Design and Development and will graduate with a B.S. in Computer Science in 2026.`}
+            {`I have an A.A.S. in Web Design and Development and will graduate with a B.S. in Computer Science.`}
           </p>
         </div>
       </div>
