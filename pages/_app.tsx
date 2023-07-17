@@ -10,7 +10,6 @@ import Head from "next/head";
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const [alert, setAlert] = useState<{}>({});
   const themeColor: string[] = [
-    //array of colors
     "#FF0000",
     "green",
     "#FF00D0",
@@ -20,11 +19,9 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     "#FF8800",
   ];
   useEffect(() => {
-    //sets the initial theme color
     changeColor(themeColor[Math.floor(Math.random() * themeColor.length)]);
   }, []);
   useEffect(() => {
-    //AOS is for the animation
     AOS.init({
       offset: 50,
       duration: 1000,

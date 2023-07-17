@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import changeColor from "../../util/changeColor";
 export default function Hero() {
   return (
@@ -22,17 +22,6 @@ export default function Hero() {
         </h2>
       </div>
       <div>
-        {/* <div className="flex flex-col md:flex-row">
-          {["Skills", "Projects"].map((txt: string) => (
-            <div key={txt} className="inline">
-              <a href={`#${txt}`}>
-                <button className="rounded-md w-full py-1 px-2  primaryText primaryButton text-xl md:text-2xl font-bold">
-                  {txt}
-                </button>
-              </a>
-            </div>
-          ))}
-        </div> */}
         <div className="flex flex-col md:flex-row">
           <div className="rounded-md w-full py-1 px-2  primaryText text-center   text-xl md:text-2xl font-bold">
             nsikan.na@gmail.com

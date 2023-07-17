@@ -9,7 +9,6 @@ const ProjectTemplate: React.FC<{
   gif: string;
   gifNotReady?: boolean;
 }> = ({ title, skills, desc, githubLink, demoLink, gif, gifNotReady }) => {
-  //reusable component for each project
   const [playGif, setPlayGif] = useState(false);
   return (
     <div className="py-4 lg:flex lg:justify-evenly ">
