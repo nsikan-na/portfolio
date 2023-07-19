@@ -10,16 +10,6 @@ export default function Projects() {
     >
       <Header text="Projects" />
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
-      <ProjectTemplate
-        title="Charlie Glass"
-        skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
-        desc={`A website I contributed to for a company named Charlie Glass.
-        `}
-        demoLink="https://charlie-glass.vercel.app/"
-        githubLink="https://github.com/nsikan-na/charlie_glass"
-        gif="charlie"
-        // gifNotReady
-      />
 
       <ProjectTemplate
         title="CryptoTracker"
@@ -36,6 +26,16 @@ export default function Projects() {
         githubLink="https://github.com/nsikan-na/CryptoTracker"
         demoLink="https://cryptocoins-tracker.vercel.app/"
         gif="crypto"
+      />
+      <ProjectTemplate
+        title="Charlie Glass"
+        skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
+        desc={`A website I contributed to for a company named Charlie Glass.
+          `}
+        demoLink="https://charlie-glass.vercel.app/"
+        githubLink="https://github.com/nsikan-na/charlie_glass"
+        gif="charlie"
+        // gifNotReady
       />
       <ProjectTemplate
         title="Ramsey Investment Calculator"
