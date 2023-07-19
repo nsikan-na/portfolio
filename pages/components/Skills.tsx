@@ -17,7 +17,7 @@ export default function Skills() {
             "Javascript",
             "React.js",
             "Typescript",
-            // "Next.js",
+            "Next.js",
             "Git",
           ].map((skill: string) => (
             <div key={skill}>
