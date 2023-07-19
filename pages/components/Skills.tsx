@@ -17,7 +17,7 @@ export default function Skills() {
             "Javascript",
             "React.js",
             "Typescript",
-            "Next.js",
+            // "Next.js",
             "Git",
           ].map((skill: string) => (
             <div key={skill}>
@@ -38,8 +38,7 @@ export default function Skills() {
             I use include Html, Css, Javascript, Typescript, React, Redux,
             Node.js, Next.js, Docker, Git, Java, Sql, NoSql, MongoDB, Postgres,
             Photoshop, Tailwind.css, and various Css Frameworks. Most
-            importantly, I am confident in my ability to learn and adapt to the
-            needs of my team.
+            importantly, I can adapt to the needs of my team.
           </p>
           <br />
           <p className="indent-12	">
