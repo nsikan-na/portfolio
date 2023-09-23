@@ -40,10 +40,6 @@ export default function Skills() {
             Photoshop, Tailwind.css, and various Css Frameworks. Most
             importantly, I can adapt to the needs of my team.
           </p>
-          <br />
-          <p className="indent-12	">
-            {`I have an A.A.S. in Web Design and Development and will graduate with a B.S. in Computer Science.`}
-          </p>
         </div>
       </div>
     </div>
