@@ -12,16 +12,6 @@ export default function Projects() {
       <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
 
       <ProjectTemplate
-        title="Charlie Glass"
-        skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
-        desc={`A website for a company named Charlie Glass.
-        `}
-        demoLink="https://charlie-glass.vercel.app/"
-        githubLink="https://github.com/nsikan-na/charlie_glass"
-        gif="charlie"
-        // gifNotReady
-      />
-      <ProjectTemplate
         title="CryptoTracker"
         skills={[
           "Typescript",
@@ -32,11 +22,12 @@ export default function Projects() {
           "MongoDB",
         ]}
         desc={` Displays useful information about the top crypto coins.
-          `}
+        `}
         githubLink="https://github.com/nsikan-na/CryptoTracker"
         demoLink="https://cryptocoins-tracker.vercel.app/"
         gif="crypto"
       />
+
       <ProjectTemplate
         title="Ramsey Investment Calculator"
         skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
@@ -62,15 +53,16 @@ export default function Projects() {
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
       />
-      {/* <ProjectTemplate
-        title="SMV Calculator (Under Construction)"
-        skills={["React js", "Typescript"]}
-        desc={`The application is used to calculates your sexual market value as a man.`}
-        githubLink="https://github.com/nsikan-na/smvCalc"
-        demoLink="https://smv-calc.vercel.app/"
-        gif="smv"
-        gifNotReady={true}
-      /> */}
+      <ProjectTemplate
+        title="Charlie Glass"
+        skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
+        desc={`A website for a company named Charlie Glass.
+          `}
+        demoLink="https://charlie-glass.vercel.app/"
+        githubLink="https://github.com/nsikan-na/charlie_glass"
+        gif="charlie"
+        // gifNotReady
+      />
     </div>
   );
 }
