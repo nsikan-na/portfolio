@@ -8,9 +8,19 @@ export default function Hero() {
     >
       <div className="sectionPadding ">
         <h1 className="text-5xl font-bold py-2 text-center ">
-          Hi, I'm <span className="primaryText ">Nsikan Akpan.</span>
+          Hi, I'm{" "}
+          <span className="primaryText ">
+            Nsikan Akpan
+            <a
+              href="https://smv-calc.vercel.app/"
+              target="_blank"
+              style={{ cursor: "text" }}
+            >
+              .
+            </a>
+          </span>
         </h1>
-        <h2 className="text-4xl font-bold py-2 text-center ">
+        {/* <h2 className="text-4xl font-bold py-2 text-center ">
           I'm a software developer
           <a
             href="https://smv-calc.vercel.app/"
@@ -19,11 +29,11 @@ export default function Hero() {
           >
             .
           </a>
-        </h2>
+        </h2> */}
       </div>
       <div>
         <div className="flex flex-col md:flex-row">
-          <div className="rounded-md w-full py-1 px-2  primaryText text-center   text-xl md:text-2xl font-bold">
+          <div className="rounded-md w-full py-1 px-2 text-center   text-xl md:text-2xl font-bold">
             nsikan.na@gmail.com
           </div>
         </div>
