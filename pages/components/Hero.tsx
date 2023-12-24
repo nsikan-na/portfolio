@@ -7,7 +7,7 @@ export default function Hero() {
       data-aos="fade-down"
     >
       <div className="sectionPadding ">
-        <h1 className="text-5xl font-bold py-2 text-center ">
+        <h1 className="text-5xl font-bold text-center ">
           Hi, I'm{" "}
           <span className="primaryText ">
             Nsikan Akpan
@@ -30,29 +30,29 @@ export default function Hero() {
             .
           </a>
         </h2> */}
-      </div>
-      <div>
-        <div className="flex flex-col md:flex-row">
-          <div className="rounded-md w-full py-1 px-2 text-center   text-xl md:text-2xl font-bold">
-            nsikan.na@gmail.com
+        <div>
+          <div className="flex flex-col md:flex-row py-2">
+            <div className="rounded-md w-full px-2 text-center   text-xl md:text-2xl font-bold">
+              nsikan.na@gmail.com
+            </div>
           </div>
-        </div>
-        <div className="p-2 flex justify-center items-center">
-          <label
-            htmlFor="color"
-            className="primaryText hover:underline cursor-pointer text-lg"
-          >
-            Choose a color!
-          </label>
-          <input
-            type="color"
-            name="color"
-            id="color"
-            className=""
-            onChange={(e) => {
-              changeColor(e.target.value);
-            }}
-          />
+          <div className="p-2 flex justify-center items-center">
+            <label
+              htmlFor="color"
+              className="primaryText hover:underline cursor-pointer text-lg"
+            >
+              Choose a color!
+            </label>
+            <input
+              type="color"
+              name="color"
+              id="color"
+              className=""
+              onChange={(e) => {
+                changeColor(e.target.value);
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>
