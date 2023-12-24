@@ -29,7 +29,7 @@ export default function Skills() {
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p className="indent-12">
             I am a software developer focusing on web development. Technologies
-            I use include Html, Css, Javascript, Typescript, React.js, Node.js,
+            I am focusing on include Html, Css, Javascript, Typescript, React.js, Node.js,
             Docker, Git, Java, and Sql. Most importantly, I can adapt to the
             needs of my team.
           </p>
