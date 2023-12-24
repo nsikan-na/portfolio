@@ -9,4 +9,3 @@ This portfolio is designed to show my skills through projects. It was meant to b
 - Next.js (React.js)
 - Typescript
 - Tailwind.css
-- Sendgrid's api to send the email
