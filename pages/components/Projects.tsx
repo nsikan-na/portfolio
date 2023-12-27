@@ -9,18 +9,11 @@ export default function Projects() {
       style={{ paddingTop: "5rem", paddingBottom: "8rem" }}
     >
       <Header text="Projects" />
-      <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div>
+      {/* <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div> */}
 
       <ProjectTemplate
         title="CryptoTracker"
-        skills={[
-          "Typescript",
-          "React.js",
-          "Next.js",
-          "Tailwind.css",
-          "NoSql",
-          "MongoDB",
-        ]}
+        skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
         desc={` Displays useful information about the top crypto coins.
         `}
         githubLink="https://github.com/nsikan-na/CryptoTracker"
