@@ -47,16 +47,18 @@ const ProjectTemplate: React.FC<{
       </div>
       <div className="lg:w-5/12 ">
         <div className="flex justify-center items-center  w-full h-full ">
-          <Image
-            src={`/images/${gif}.png`}
-            width="640%"
-            height="360%"
-            alt={title}
-            className="rounded-lg  projectImg "
-            onClick={() => {
-              setPlayGif(true);
-            }}
-          />
+          <a href={demoLink} target="_blank">
+            <Image
+              src={`/images/${gif}.png`}
+              width="640%"
+              height="360%"
+              alt={title}
+              className="rounded-lg  projectImg "
+              onClick={() => {
+                setPlayGif(true);
+              }}
+            />
+          </a>
         </div>
       </div>
     </div>
