@@ -2,9 +2,7 @@ import React from "react";
 import ProjectTemplate from "./ProjectTemplate";
 import Header from "./Header";
 
-export default function Projects() {
-  setInterval(sendAPIRequest, 300000);
-
+export default function Projects({}) {
   return (
     <div
       className="sectionPadding"
@@ -77,6 +75,16 @@ export default function Projects() {
     </div>
   );
 }
+
+export const getStaticProps: any = async () => {
+  // setInterval(sendAPIRequest, 300000);
+  sendAPIRequest();
+
+  return {
+    props: {},
+    revalidate: 300,
+  };
+};
 
 function sendAPIRequest() {
   const urls = ["https://charlie-glass-admin-api.vercel.app/"];
