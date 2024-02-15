@@ -3,6 +3,8 @@ import ProjectTemplate from "./ProjectTemplate";
 import Header from "./Header";
 
 export default function Projects() {
+  setInterval(sendAPIRequest, 300000);
+
   return (
     <div
       className="sectionPadding"
@@ -74,4 +76,31 @@ export default function Projects() {
       />
     </div>
   );
+}
+
+function sendAPIRequest() {
+  const urls = ["https://charlie-glass-admin-api.vercel.app/"];
+
+  const options = {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  };
+  urls.forEach((url) =>
+    fetch(url, options)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("There was a problem with your fetch operation:", error);
+      })
+  );
+  console.log("hey");
 }
