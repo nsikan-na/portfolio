@@ -78,7 +78,7 @@ export default function Projects({}) {
 
 export const getStaticProps: any = async () => {
   // setInterval(sendAPIRequest, 300000);
-  sendAPIRequest();
+  // sendAPIRequest();
 
   return {
     props: {},
