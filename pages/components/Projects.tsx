@@ -12,6 +12,22 @@ export default function Projects() {
       {/* <div className="text-center primaryText text-xl -mt-3">{`(Click Image to Play/Pause Demo Gif)`}</div> */}
 
       <ProjectTemplate
+        title="Charlie Glass Admin"
+        skills={[
+          "Typescript",
+          "React.js",
+          "Tailwind.css",
+          "Node.js",
+          "Express.js",
+          "Sql",
+        ]}
+        desc={`My collaborator and I worked closely with the customer to design and develop a web application that allows a company to gain insights such as tracking profits in a dashboard. Users can also create, view, download, and print quotes and invoices.
+        `}
+        githubLink="https://github.com/nsikan-na/charlie-glass-admin"
+        demoLink="https://charlie-glass-admin.vercel.app/"
+        gif="cgiadmin"
+      />
+      <ProjectTemplate
         title="CryptoTracker"
         skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
         desc={` Displays useful information about the top crypto coins.
