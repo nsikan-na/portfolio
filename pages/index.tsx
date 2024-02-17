@@ -33,20 +33,20 @@ function sendAPIRequest() {
       "Content-Type": "application/json",
     },
   };
-  urls.forEach((url) =>
-    fetch(url, options)
-      .then((response) => {
+  urls.forEach(
+    (url) =>
+      fetch(url, options).then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         return response.json();
       })
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.error("There was a problem with your fetch operation:", error);
-      })
+    // .then((data) => {
+    //   console.log(data);
+    // })
+    // .catch((error) => {
+    //   console.error("There was a problem with your fetch operation:", error);
+    // })
   );
   console.log(
     "Cold Start " +
