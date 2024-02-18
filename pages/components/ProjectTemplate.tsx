@@ -47,7 +47,14 @@ const ProjectTemplate: React.FC<{
       </div>
       <div className="lg:w-5/12 ">
         <div className="flex justify-center items-center  w-full h-full ">
-          <a href={demoLink} target="_blank">
+          <a
+            href={demoLink}
+            target="_blank"
+            style={{
+              border: gif === "cgiadmin3" ? "1px solid black " : undefined,
+              borderRadius: gif === "cgiadmin3" ? "0.5rem " : undefined,
+            }}
+          >
             <Image
               src={`/images/${gif}.png`}
               width="640%"
