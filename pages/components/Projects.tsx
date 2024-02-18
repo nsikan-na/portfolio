@@ -25,7 +25,7 @@ export default function Projects() {
         `}
         githubLink="https://github.com/nsikan-na/charlie-glass-admin"
         demoLink="https://charlie-glass-admin.vercel.app/"
-        gif="cgiadmin2"
+        gif="cgiadmin3"
       />
       <ProjectTemplate
         title="CryptoTracker"
