@@ -35,13 +35,7 @@ export default function Skills() {
         </div>
         <div className="mt-4 md:w-5/12 text-white font-semibold lg:w-4/12 text-xl">
           <p className="indent-12">
-            I am a software developer focusing on full-stack web development.
-            Technologies I have experience with include Html, CSS, Javascript,
-            Tailwind.css, Typescript, React.js, Express.js, Node.js, Docker,
-            Git, Java, Spring Boot, and Sql. Most importantly, I can adapt to
-            the needs of my team. I am completing a Bachelor of Science degree
-            in Computer Science for a stronger foundation in Software
-            Development.
+           I am a software developer focusing on full-stack web development. Technologies I have experience with include React.js, Typescript, Node.js, Git, and Sql. Most importantly, I can adapt to the needs of my team. I am completing a Bachelor of Science degree in Computer Science for a stronger foundation in Software Development.
           </p>
         </div>
       </div>
