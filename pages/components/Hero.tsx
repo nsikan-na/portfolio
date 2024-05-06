@@ -1,5 +1,6 @@
 import React from "react";
 import changeColor from "../../util/changeColor";
+import Image from "next/image";
 export default function Hero() {
   return (
     <div
@@ -53,6 +54,47 @@ export default function Hero() {
               }}
             />
           </div>
+        </div>
+        <div className="rounded-md w-full px-2 text-center   text-xl md:text-2xl font-bold">
+          <a
+            href="https://www.linkedin.com/in/nsikan-na/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <Image
+              src={`/images/linkedin.png`}
+              alt={`LinkedIn`}
+              title={"LinkedIn"}
+              width="30%"
+              height="30%"
+            />
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1OlM0SpP5YKTcHXREMpJydAomYHGUUzEw-7uj1jHio5A"
+            target="_blank"
+            style={{ cursor: "pointer", margin: "0 1rem" }}
+          >
+            <Image
+              src={`/images/resume.png`}
+              alt={`resume`}
+              title={"Resume"}
+              width="30%"
+              height="30%"
+            />
+          </a>
+          <a
+            href="https://github.com/nsikan-na"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <Image
+              src={`/images/github.png`}
+              alt={`Github`}
+              title={"Github"}
+              width="30%"
+              height="30%"
+            />
+          </a>
         </div>
       </div>
     </div>
