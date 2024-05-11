@@ -27,15 +27,7 @@ export default function Projects() {
         demoLink="https://charlie-glass-admin.vercel.app/login"
         gif="cgiadmin1"
       />
-      <ProjectTemplate
-        title="CryptoTracker"
-        skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
-        desc={` Displays useful information about the top crypto coins.
-        `}
-        githubLink="https://github.com/nsikan-na/CryptoTracker"
-        demoLink="https://cryptocoins-tracker.vercel.app/"
-        gif="crypto"
-      />
+      
 
       <ProjectTemplate
         title="Ramsey Investment Calculator"
@@ -61,6 +53,15 @@ export default function Projects() {
         githubLink="https://github.com/nsikan-na/Gwinnett_Dinner-v2"
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
+      />
+      <ProjectTemplate
+        title="CryptoTracker"
+        skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
+        desc={` Displays useful information about the top crypto coins.
+        `}
+        githubLink="https://github.com/nsikan-na/CryptoTracker"
+        demoLink="https://cryptocoins-tracker.vercel.app/"
+        gif="crypto"
       />
       <ProjectTemplate
         title="Charlie Glass"
