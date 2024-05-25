@@ -54,7 +54,7 @@ export default function Projects() {
         demoLink="https://gwinnett-diner-v2.vercel.app/"
         gif="diner"
       />
-      <ProjectTemplate
+{/*       <ProjectTemplate
         title="CryptoTracker"
         skills={["Typescript", "React.js", "Next.js", "Tailwind.css"]}
         desc={` Displays useful information about the top crypto coins.
@@ -62,7 +62,7 @@ export default function Projects() {
         githubLink="https://github.com/nsikan-na/CryptoTracker"
         demoLink="https://cryptocoins-tracker.vercel.app/"
         gif="crypto"
-      />
+      /> */}
       <ProjectTemplate
         title="Charlie Glass"
         skills={["Typescript", "React.js", "Next.js", "Material Ui"]}
